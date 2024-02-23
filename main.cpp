@@ -11,7 +11,8 @@
 
 int main() {
 	// Tests
-	testSMAUpdate();
+	Test test;
+	test.testSMAUpdate();
 
 	// Start timer
 	auto start = chrono::high_resolution_clock::now();

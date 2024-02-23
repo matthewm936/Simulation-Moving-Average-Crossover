@@ -3,6 +3,8 @@
 
 #include <deque>
 #include <cassert>
+#include <string>
+#include <iostream>
 
 
 using namespace std;
@@ -19,7 +21,7 @@ private:
 
 public:
 	MovingAverage(int length) {
-		length = length;
+		this->length = length;
 		size = 0;
 		average = 0.0;
 		sum = 0.0;
@@ -28,19 +30,16 @@ public:
 	}
 
 	void update(double currentPrice) {
-		assert(length >= size);
+		values.push_front(currentPrice);
+		size++;
+		sum += currentPrice; 
 
-		if (size == length) {
+		if (size > length) {
 			sum -= values.back();
 			values.pop_back();
-
 			size--;
 		}
 
-		values.push_front(currentPrice);
-		sum += currentPrice; 
-
-		size++;
 		average = sum / size;
 	}
 
@@ -54,6 +53,24 @@ public:
 
 	int getLength() {
 		return length;
+	}
+
+	int getSize() {
+		return size;
+	}
+
+	void printValues() {
+		cout << "Values: ";
+		for (double value : values) {
+			cout << value << " ";
+		}
+		cout << endl;
+	}
+
+	void state() {
+		string state = "Length: " + to_string(length) + " Size: " + to_string(size) + " Average: " + to_string(average) + " Sum: " + to_string(sum);
+		cout << state << endl;
+		printValues();
 	}
 
 	~MovingAverage() {
