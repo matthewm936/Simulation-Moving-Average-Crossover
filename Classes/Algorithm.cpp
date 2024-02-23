@@ -10,6 +10,16 @@ private:
 	double entryPrice;
 	double currentPrice;
 
+	enum IndicatorDirection {
+		BULL,
+		BEAR,
+		NEUTRAL,
+		NONE
+	};
+
+	IndicatorDirection currentDirection;
+
+
 	void enterLong() {
 		// Enter long implementation
 	}

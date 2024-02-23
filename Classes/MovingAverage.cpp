@@ -1,26 +1,59 @@
 #ifndef MOVINGAVERAGE_CPP
 #define MOVINGAVERAGE_CPP
 
+#include <deque>
+#include <cassert>
+
+
+using namespace std;
+
 class MovingAverage {
 private:
-	enum IndicatorDirection {
-		BULL,
-		BEAR,
-		NEUTRAL,
-		NONE
-	};
-
 	int length;
-	double average;
-	IndicatorDirection currentDirection;
+	int size;
 
-	void update(double currentPrice);
+	double average;
+	double sum;
+
+	deque<double> values;
 
 public:
 	MovingAverage(int length) {
-		this->length = length;
-		this->average = 0.0;
-		this->currentDirection = NONE;
+		length = length;
+		size = 0;
+		average = 0.0;
+		sum = 0.0;
+
+		values = deque<double>();
+	}
+
+	void update(double currentPrice) {
+		assert(length >= size);
+
+		if (size == length) {
+			sum -= values.back();
+			values.pop_back();
+
+			size--;
+		}
+
+		values.push_front(currentPrice);
+		sum += currentPrice; 
+
+		size++;
+		average = sum / size;
+	}
+
+	double getAverage() {
+		return average;
+	}
+
+	deque<double> getValues() {
+		return values;
+	}
+
+	int getLength() {
+		return length;
 	}
 
 	~MovingAverage() {
