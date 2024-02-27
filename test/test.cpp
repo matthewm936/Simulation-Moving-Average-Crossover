@@ -53,6 +53,6 @@ class Test {
 
 			deque<double> values = ma.getValues();
 
-			cout << "testing SMA update" << endl;
+			cout << "TEST: SMA update" << endl;
 		}
 };
