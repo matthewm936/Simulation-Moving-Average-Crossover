@@ -6,7 +6,6 @@
 #include <string>
 #include <iostream>
 
-
 using namespace std;
 
 class MovingAverage {
@@ -71,10 +70,6 @@ public:
 		string state = "Length: " + to_string(length) + " Size: " + to_string(size) + " Average: " + to_string(average) + " Sum: " + to_string(sum);
 		cout << state << endl;
 		printValues();
-	}
-
-	~MovingAverage() {
-		
 	}
 };
 
