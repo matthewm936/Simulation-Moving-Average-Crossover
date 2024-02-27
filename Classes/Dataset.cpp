@@ -9,7 +9,6 @@
 
 using namespace std;
 
-
 class Dataset {
 private:
 	string inputFile;

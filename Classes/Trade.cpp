@@ -1,18 +1,18 @@
-#ifndef ALGORITHM_CPP
-#define ALGORITHM_CPP
+#ifndef Trade_CPP
+#define Trade_CPP
 
 #include <string>
 
 using namespace std;
 
-class Algorithm {
+class Trade {
 private:
 	double entryPrice;
 	double currentPrice;
 
 	enum IndicatorDirection {
-		BULL,
-		BEAR,
+		LONG,
+		SHORT,
 		NEUTRAL,
 		NONE
 	};
@@ -37,7 +37,7 @@ private:
 	}
 
 	public:
-		Algorithm(string name) {
+		Trade() {
 
 		}
 

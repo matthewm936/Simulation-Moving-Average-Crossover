@@ -8,6 +8,13 @@ private:
 	MovingAverage fast;
 	MovingAverage slow;
 
+	enum IndicatorDirection {
+		LONG,
+		SHORT,
+		NEUTRAL,
+		NONE
+	};
+
 public:
 	MovingAverageCrossover(int fastLength, int slowLength) : fast(fastLength), slow(slowLength) {
 	}
@@ -17,13 +24,13 @@ public:
 		slow.update(currentPrice);
 	}
 
-	string getSignal() {
+	IndicatorDirection getSignal() {
 		if(fast.getAverage() > slow.getAverage()) {
-			return "long";
+			return LONG;
 		} else if(fast.getAverage() < slow.getAverage()) {
-			return "short";
+			return SHORT;
 		} else {
-			return "NONE";
+			return NEUTRAL;
 		}
 	}
 };

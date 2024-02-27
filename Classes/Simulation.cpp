@@ -27,7 +27,6 @@ public:
 		for(int i = 1; i < simSize; i++) {
 			for(int j = 1; j < simSize; j++) {
 				if(i < j) {
-					// cout << "Running simulation with params: " << i << " " << j << endl;
 					MovingAverageCrossover mac = MovingAverageCrossover(i, j);
 					
 				}
