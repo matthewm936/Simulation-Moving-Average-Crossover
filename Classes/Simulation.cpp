@@ -20,10 +20,6 @@ public:
 
 	}
 
-	~Simulation() {
-		
-	}
-
 	void run() {
 		cout << "Running simulation on: " << this->fileName << endl;
 		for(int i = 1; i < simSize; i++) {

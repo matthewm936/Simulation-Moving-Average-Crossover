@@ -17,9 +17,6 @@ public:
 		this->longs = 0;
 		this->shorts = 0;
 	}
-
-	~Portfolio() {
-	}
 };
 
 #endif 

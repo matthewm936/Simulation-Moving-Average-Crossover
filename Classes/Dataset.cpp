@@ -55,10 +55,6 @@ public:
 		}
 	};
 
-	~Dataset() {
-		
-	}
-
 	vector<string> getCleanedData() {
 		return this->outputFiles;
 	}

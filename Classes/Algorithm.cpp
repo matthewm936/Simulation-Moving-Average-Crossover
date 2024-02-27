@@ -41,9 +41,6 @@ private:
 
 		}
 
-		~Algorithm() {
-			
-		}
 };
 
 #endif 

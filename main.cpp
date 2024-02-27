@@ -8,6 +8,7 @@
 
 #include <iostream>
 #include <chrono>
+#include <cmath>
 
 int main() {
 	// Tests
@@ -24,7 +25,10 @@ int main() {
 	vector<string> cleanedData = dataset.getCleanedData();
 
 	// Set hyperparameters to analyze
-	int simSize = 150;
+	int exponent = 4;
+	int simSize = 10;
+
+	simSize = pow(simSize, exponent);
 
 	for (size_t i = 0; i < cleanedData.size(); i++) {
 		// Run simulation trading on each time frame
@@ -49,7 +53,7 @@ int main() {
 	// End timer
 	auto end = chrono::high_resolution_clock::now();
 	auto duration = chrono::duration_cast<chrono::milliseconds>(end - start);
-	cout << "Time taken by program: " << duration.count() << " milliseconds" << endl;
+	cout << "Run time: " << duration.count() << " milliseconds : " << duration.count() / 1000<< " seconds" << endl;
 
 	return 0;
 }
