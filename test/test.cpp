@@ -52,5 +52,7 @@ class Test {
 			assert(ma.getLength() >= ma.getSize());
 
 			deque<double> values = ma.getValues();
+
+			cout << "testing SMA update" << endl;
 		}
 };

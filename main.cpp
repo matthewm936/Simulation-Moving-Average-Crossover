@@ -24,7 +24,7 @@ int main() {
 	vector<string> cleanedData = dataset.getCleanedData();
 
 	// Set hyperparameters to analyze
-	int simSize = 100;
+	int simSize = 150;
 
 	for (size_t i = 0; i < cleanedData.size(); i++) {
 		// Run simulation trading on each time frame
