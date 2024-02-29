@@ -5,6 +5,7 @@
 #include "Classes\Dataset.cpp"
 #include "test\test.cpp"
 #include "Classes\Paramaterization.cpp"
+#include "Classes\MovingAverageLengths.cpp"
 
 #include <iostream>
 #include <chrono>
@@ -24,12 +25,12 @@ int main() {
 	vector<string> cleanedData = dataset.getCleanedFilePaths();
 
 	// Create parameters for moving average crossover lengths
-	Paramaterization params(1000);
-	vector<pair<int, int>> testingValues = params.getTestingValues();
+	Paramaterization parameters(1000);
+	vector<MovingAverageLengths> testingValues = parameters.getTestingValues();
 
 	for (size_t i = 0; i < cleanedData.size(); i++) {
 		// Run simulation trading on each time frame section
-		Simulation sim(cleanedData[i]);
+		Simulation sim(cleanedData[i], testingValues);
 		sim.run();
 	}
 

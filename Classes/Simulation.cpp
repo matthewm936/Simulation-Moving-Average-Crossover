@@ -3,6 +3,7 @@
 
 #include "MovingAverage.cpp"
 #include "MovingAverageCrossover.cpp"
+#include "MovingAverageLengths.cpp"
 
 #include <string>
 #include <iostream> 
@@ -15,7 +16,7 @@ private:
 	string fileName;
 
 public:
-	Simulation(const string& fileName) {
+	Simulation(const string& fileName, vector<MovingAverageLengths> testingValues) {
 		this->fileName = fileName;
 	}
 
