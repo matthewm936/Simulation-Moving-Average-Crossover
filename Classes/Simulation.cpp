@@ -36,9 +36,20 @@ public:
 		}
 
 		string filetext;
-		// loop through the file and update the moving average crossover on each testingValue
-		while(getline(file, filetext)) {
-			cout << filetext << endl;
+		while (getline(file, filetext)) {
+			std::vector<std::string> row;
+			std::stringstream ss(filetext);
+			std::string field;
+
+			while (std::getline(ss, field, ',')) {
+				row.push_back(field);
+			}
+
+			// Now you can access individual fields in the row.
+			for (const auto& field : row) {
+				// std::cout << field << ' ';
+			}
+			// std::cout << '\n';
 		}
 
 	}
