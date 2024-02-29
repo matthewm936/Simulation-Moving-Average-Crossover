@@ -1,13 +1,34 @@
 #include <deque>
 #include <iostream>
 #include <cassert>
+#include <vector>
 
+#include "..\Classes\Paramaterization.cpp"
 #include "..\Classes\MovingAverage.cpp"
 
 using namespace std;
 
 class Test {
 	public:
+		Test() {
+			testSMAUpdate();
+			testParameterization();
+		}
+
+	private:
+
+		void testParameterization() {
+			int size = 10;
+
+			Paramaterization params(size);
+			vector<pair<int, int>> testingValues = params.getTestingValues();
+			for(const auto& pair : testingValues) {
+				cout << "First location: " << pair.first << ", Second location: " << pair.second << "\n";
+				assert(pair.first > pair.second);
+				assert(int(testingValues.size()) > (size * size / 2) - 1);
+			}
+		}
+
 		void testSMAUpdate() {
 			MovingAverage ma = MovingAverage(3);
 

@@ -19,7 +19,7 @@ public:
 	MovingAverageCrossover(int fastLength, int slowLength) : fast(fastLength), slow(slowLength) {
 	}
 
-	void update(double currentPrice) {
+	void calculateMovingAverage(double currentPrice) {
 		fast.update(currentPrice);
 		slow.update(currentPrice);
 	}

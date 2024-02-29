@@ -4,6 +4,7 @@
 #include "Classes\Simulation.cpp"
 #include "Classes\Dataset.cpp"
 #include "test\test.cpp"
+#include "Classes\Paramaterization.cpp"
 
 #include <iostream>
 #include <chrono>
@@ -12,7 +13,6 @@
 int main() {
 	// Tests
 	Test test;
-	test.testSMAUpdate();
 
 	// Start timer
 	auto start = chrono::high_resolution_clock::now();
@@ -21,17 +21,15 @@ int main() {
 	Dataset dataset("BTC-USD-Daily-Yahoo.csv", true, false);
 
 	// Get the cleaned data
-	vector<string> cleanedData = dataset.getCleanedData();
+	vector<string> cleanedData = dataset.getCleanedFilePaths();
 
-	// Set hyperparameters to analyze
-	int exponent = 3;
-	int simSize = 10;
-
-	simSize = pow(simSize, exponent);
+	// Create parameters for moving average crossover lengths
+	Paramaterization params(1000);
+	vector<pair<int, int>> testingValues = params.getTestingValues();
 
 	for (size_t i = 0; i < cleanedData.size(); i++) {
 		// Run simulation trading on each time frame section
-		Simulation sim(cleanedData[i], simSize);
+		Simulation sim(cleanedData[i]);
 		sim.run();
 	}
 

@@ -18,7 +18,7 @@ private:
 	void fileCreate(const string& filename) {
 		string path = "./Clean Data/" + filename; 
 		if(fileExists(path)) {
-			cout << "File exists" << endl;
+			cout << "File: " << filename << " exists" << endl;
 		} else {
 			ofstream file(path);
 			if (file) {
@@ -54,7 +54,7 @@ public:
 		}
 	};
 
-	vector<string> getCleanedData() {
+	vector<string> getCleanedFilePaths() {
 		return this->outputFiles;
 	}
 
