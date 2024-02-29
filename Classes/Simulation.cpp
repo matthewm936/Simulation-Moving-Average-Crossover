@@ -16,17 +16,19 @@ using namespace std;
 class Simulation {
 private:
 	string fileName;
+	vector<MovingAverageLengths> testingValues;
 
 public:
 	Simulation(const string& fileName, vector<MovingAverageLengths> testingValues) {
 		this->fileName = fileName;
+		this->testingValues = testingValues;
 	}
 
 	void run() {
 		ifstream file(this->fileName);
 
-		if (!std::filesystem::exists(fileName)) {	
-			std::cerr << "File does not exist: " << fileName << std::endl;
+		if (!filesystem::exists(fileName)) {	
+			cerr << "File does not exist: " << fileName << endl;
 			return;
 		}
 
@@ -35,23 +37,30 @@ public:
 			return;
 		}
 
+		// create all the instances of the moving averages
+		for (const auto& testingValue : testingValues) {
+			MovingAverage slowMA(testingValue.getSlow());
+			MovingAverage fastMA(testingValue.getFast());
+		}
+
 		string filetext;
 		while (getline(file, filetext)) {
-			std::vector<std::string> row;
-			std::stringstream ss(filetext);
-			std::string field;
+			vector<string> row;
+			stringstream ss(filetext);
+			string field;
 
-			while (std::getline(ss, field, ',')) {
+			while (getline(ss, field, ',')) {
 				row.push_back(field);
 			}
 
-			// Now you can access individual fields in the row.
+			// CSV file layout
+			// Date, Open, High, Low, Close, Adj Close, Volume
+			// 0     1     2     3    4      5          6
 			for (const auto& field : row) {
-				// std::cout << field << ' ';
+				cout << field << ' ';
 			}
-			// std::cout << '\n';
+			cout << '\n';
 		}
-
 	}
 };
 

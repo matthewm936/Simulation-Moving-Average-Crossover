@@ -19,13 +19,13 @@ int main() {
 
 	// Setup data
 	vector<string> rawDataFiles = { 
-		"./Raw Data/BTC-USD-Daily-Yahoo.csv", 
-		"./Raw Data/BTC-USD-Monthly-Yahoo.csv", 
+		// "./Raw Data/BTC-USD-Daily-Yahoo.csv", 
+		// "./Raw Data/BTC-USD-Monthly-Yahoo.csv", 
 		"./Raw Data/BTC-USD-Weekly-Yahoo.csv" 
 	};
 	vector<string> subsectionDataFiles = { 
-		"./Clean Data/Daily-2017-Feb-23-to-2017-Dec-17.csv", 
-		"./Clean Data/Daily-2020-Nov-30-to-21-Apr-14.csv" 
+		// "./Clean Data/Daily-2017-Feb-23-to-2017-Dec-17.csv", 
+		// "./Clean Data/Daily-2020-Nov-30-to-21-Apr-14.csv" 
 	};
 	
 	Dataset dataset(rawDataFiles, subsectionDataFiles);
