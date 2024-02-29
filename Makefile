@@ -2,7 +2,7 @@
 CXX = g++
 
 # Compiler flags
-CXXFLAGS = -Wall -std=c++11
+CXXFLAGS = -Wall -std=c++17
 
 # Source files
 SRCS = main.cpp Classes/Trade.cpp Classes/Dataset.cpp Classes/MovingAverage.cpp Classes/Portfolio.cpp Classes/Simulation.cpp test/test.cpp

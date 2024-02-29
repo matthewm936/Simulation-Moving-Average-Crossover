@@ -19,13 +19,13 @@ int main() {
 	auto start = chrono::high_resolution_clock::now();
 
 	// Setup data
-	Dataset dataset("BTC-USD-Daily-Yahoo.csv", true, false);
+	Dataset dataset("BTC-USD-Daily-Yahoo.csv", true, true);
 
 	// Get the cleaned data
 	vector<string> cleanedData = dataset.getCleanedFilePaths();
 
 	// Create parameters for moving average crossover lengths
-	Paramaterization parameters(1000);
+	Paramaterization parameters(100);
 	vector<MovingAverageLengths> testingValues = parameters.getTestingValues();
 
 	for (size_t i = 0; i < cleanedData.size(); i++) {

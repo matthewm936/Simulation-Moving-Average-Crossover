@@ -29,7 +29,7 @@ private:
 				}
 			}
 		}	
-		cout << "Parameterization values created for: " << testingSize << endl;
+		// cout << "Parameterization values created for: " << testingSize << endl;
 	}
 
 public:

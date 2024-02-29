@@ -8,6 +8,8 @@
 #include <string>
 #include <iostream> 
 #include <vector>
+#include <fstream>
+#include <filesystem>
 
 using namespace std;
 
@@ -21,10 +23,23 @@ public:
 	}
 
 	void run() {
-		cout << "Running simulation on: " << this->fileName << endl;
+		ifstream file(this->fileName);
 
-		// open the file...
+		if (!std::filesystem::exists(fileName)) {	
+			std::cerr << "File does not exist: " << fileName << std::endl;
+			return;
+		}
+
+		if(!file) {
+			cerr << "Failed to open file: " << fileName << endl;
+			return;
+		}
+
+		string filetext;
 		// loop through the file and update the moving average crossover on each testingValue
+		while(getline(file, filetext)) {
+			cout << filetext << endl;
+		}
 
 	}
 };
