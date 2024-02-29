@@ -2,6 +2,7 @@
 #define MOVINGAVERAGECROSSOVER_CPP
 
 #include "MovingAverage.cpp"
+#include "MovingAverageLengths.cpp"
 
 class MovingAverageCrossover {
 private:
@@ -16,8 +17,7 @@ private:
 	};
 
 public:
-	MovingAverageCrossover(int fastLength, int slowLength) : fast(fastLength), slow(slowLength) {
-	}
+	MovingAverageCrossover(int fastLength, int slowLength) : fast(fastLength), slow(slowLength) {}
 
 	void calculateMovingAverage(double currentPrice) {
 		fast.update(currentPrice);

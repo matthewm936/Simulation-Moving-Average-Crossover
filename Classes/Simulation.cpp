@@ -22,7 +22,9 @@ public:
 
 	void run() {
 		cout << "Running simulation on: " << this->fileName << endl;
-		// MovingAverageCrossover mac = MovingAverageCrossover(i, j);
+
+		// open the file...
+		// loop through the file and update the moving average crossover on each testingValue
 
 	}
 };
