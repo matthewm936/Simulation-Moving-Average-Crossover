@@ -1,4 +1,3 @@
-#include "Classes\Trade.cpp"
 #include "Classes\MovingAverage.cpp"
 #include "Classes\Portfolio.cpp"
 #include "Classes\Simulation.cpp"
