@@ -3,7 +3,6 @@
 
 #include "MovingAverage.cpp"
 #include "MovingAverageCrossover.cpp"
-#include "MovingAverageLengths.cpp"
 
 #include <string>
 #include <iostream> 
@@ -16,10 +15,10 @@ using namespace std;
 class Simulation {
 private:
 	string fileName;
-	vector<MovingAverageLengths> testingValues;
+	vector<MovingAverageCrossover> testingValues;
 
 public:
-	Simulation(const string& fileName, vector<MovingAverageLengths> testingValues) {
+	Simulation(const string& fileName, vector<MovingAverageCrossover> testingValues) {
 		this->fileName = fileName;
 		this->testingValues = testingValues;
 	}
@@ -35,12 +34,6 @@ public:
 		if(!file) {
 			cerr << "Failed to open file: " << fileName << endl;
 			return;
-		}
-
-		// create all the instances of the moving averages
-		for (const auto& testingValue : testingValues) {
-			MovingAverage slowMA(testingValue.getSlow());
-			MovingAverage fastMA(testingValue.getFast());
 		}
 
 		string filetext;

@@ -15,7 +15,6 @@ private:
 
 public:
 	Dataset(vector<string> rawDataFiles, vector<string> subsectionDataFiles) {
-
 		for(auto file : rawDataFiles) {
 			if (filesystem::exists(file)) {
 				this->outputFiles.push_back(file);

@@ -2,7 +2,6 @@
 #define MOVINGAVERAGECROSSOVER_CPP
 
 #include "MovingAverage.cpp"
-#include "MovingAverageLengths.cpp"
 
 class MovingAverageCrossover {
 private:

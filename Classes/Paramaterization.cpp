@@ -4,7 +4,7 @@
 #include <iostream>
 #include <vector>
 
-#include "MovingAverageLengths.cpp"
+#include "MovingAverageCrossover.cpp"
 
 using namespace std; 
 
@@ -16,7 +16,7 @@ class Paramaterization {
 	// so this needs to be able to loop through and give the correct paramaterization to the ma
 	// the input will be the tested values
 private:
-    vector<MovingAverageLengths> testingValues;
+    vector<MovingAverageCrossover> movingAverageCrossoverObjects;
 
 	void setTestingValues(int testingSize) {
 		// built for parameterization of moving average crossover
@@ -25,7 +25,7 @@ private:
 				if(i < j) {
 					int slow = j;
 					int fast = i;
-					testingValues.push_back(MovingAverageLengths(slow, fast));
+					movingAverageCrossoverObjects.push_back(MovingAverageCrossover(slow, fast));
 				}
 			}
 		}	
@@ -37,8 +37,8 @@ public:
 		setTestingValues(testingSize);
 	}
 
-	vector<MovingAverageLengths> getTestingValues() {
-		return this->testingValues;
+	vector<MovingAverageCrossover> getTestingValues() {
+		return this->movingAverageCrossoverObjects;
 	}
 
 };
