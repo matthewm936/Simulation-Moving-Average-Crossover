@@ -15,16 +15,17 @@ using namespace std;
 class Simulation {
 private:
 	string fileName;
-	vector<MovingAverageCrossover> testingValues;
+	vector<MovingAverageCrossover> movingAverageCrossovers;
 
 public:
-	Simulation(const string& fileName, vector<MovingAverageCrossover> testingValues) {
+	Simulation(const string& fileName, vector<MovingAverageCrossover> movingAverageCrossovers) {
 		this->fileName = fileName;
-		this->testingValues = testingValues;
+		this->movingAverageCrossovers = movingAverageCrossovers;
 	}
 
 	void run() {
 		ifstream file(this->fileName);
+		string filetext;
 
 		if (!filesystem::exists(fileName)) {	
 			cerr << "File does not exist: " << fileName << endl;
@@ -36,8 +37,10 @@ public:
 			return;
 		}
 
-		string filetext;
-		while (getline(file, filetext)) {
+		getline(file, filetext); // Skip the header
+
+		for(auto& MAcrossover : movingAverageCrossovers) {
+			while (getline(file, filetext)) {
 			vector<string> row;
 			stringstream ss(filetext);
 			string field;
@@ -49,10 +52,9 @@ public:
 			// CSV file layout
 			// Date, Open, High, Low, Close, Adj Close, Volume
 			// 0     1     2     3    4      5          6
-			for (const auto& field : row) {
-				cout << field << ' ';
-			}
-			cout << '\n';
+			MAcrossover.calculateMovingAverage(stod(row[1]));
+			MAcrossover.getSignal();
+		}
 		}
 	}
 };

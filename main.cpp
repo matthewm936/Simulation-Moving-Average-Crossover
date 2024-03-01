@@ -34,18 +34,18 @@ int main() {
 
 	// Create parameters for moving average crossover lengths
 	Paramaterization parameters(100);
-	vector<MovingAverageCrossover> testingValues = parameters.getTestingValues();
+	vector<MovingAverageCrossover> movingAverageCrossovers = parameters.getTestingValues();
 
 	for (size_t i = 0; i < cleanedData.size(); i++) {
 		// Run simulation trading on each time frame section
-		Simulation sim(cleanedData[i], testingValues);
+		Simulation sim(cleanedData[i], movingAverageCrossovers);
 		sim.run();
 	}
 
 	// End timer
 	auto end = chrono::high_resolution_clock::now();
 	auto duration = chrono::duration_cast<chrono::milliseconds>(end - start);
-	cout << "Run time: " << duration.count() << " milliseconds : " << duration.count() / 1000<< " seconds" << endl;
+	cout << "Run time: " << duration.count() << " milliseconds : " << duration.count() / 1000 << " seconds" << endl;
 
 	return 0;
 }
