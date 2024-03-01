@@ -11,32 +11,29 @@ using namespace std;
 class Trade {
 private:
 	double entryPrice;
-	double currentPrice;
 
 	IndicatorDirection currentDirection;
-
-
-	void enterLong() {
-		// Enter long implementation
-	}
-
-	void enterShort() {
-		// Enter short implementation
-	}
-
-	void exitLong() {
-		// Exit long implementation
-	}
-
-	void exitShort() {
-		// Exit short implementation
-	}
 
 	public:
 		Trade() {
 
 		}
 
+	void enterLong(double price) {
+		entryPrice = price;
+	}
+
+	void enterShort(double price) {
+		entryPrice = price;
+	}
+
+	double exitLong(double price) {
+		return (price - entryPrice) / entryPrice;
+	}
+
+	double exitShort(double price) {
+		return (entryPrice - price) / entryPrice;
+	}
 };
 
 #endif 

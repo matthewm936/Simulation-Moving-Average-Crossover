@@ -41,21 +41,28 @@ public:
 
 		for(auto& MAcrossover : movingAverageCrossovers) {
 			while (getline(file, filetext)) {
-			vector<string> row;
-			stringstream ss(filetext);
-			string field;
+				vector<string> row;
+				stringstream ss(filetext);
+				string field;
 
-			while (getline(ss, field, ',')) {
-				row.push_back(field);
+				while (getline(ss, field, ',')) {
+					row.push_back(field);
+				}
+
+				// CSV file layout
+				// Date, Open, High, Low, Close, Adj Close, Volume
+				// 0     1     2     3    4      5          6
+				MAcrossover.updateMovingAverageCrossover(stod(row[1]));
+				MAcrossover.getSignal();
 			}
-
-			// CSV file layout
-			// Date, Open, High, Low, Close, Adj Close, Volume
-			// 0     1     2     3    4      5          6
-			MAcrossover.calculateMovingAverage(stod(row[1]));
-			MAcrossover.getSignal();
-		}
-		}
+			cout << "--------------------------------" << endl 
+				<< "Fast length: " << MAcrossover.fast.getLength()
+				<< " Slow length: " << MAcrossover.slow.getLength()
+				<< endl
+				<< "Total returns: " 
+				<< MAcrossover.portfolio.getTotalReturns() << endl
+				<< "--------------------------------" << endl;
+		}	
 	}
 };
 

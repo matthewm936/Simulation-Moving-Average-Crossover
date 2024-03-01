@@ -9,9 +9,12 @@
 #include <chrono>
 #include <cmath>
 
-int main() {
-	// Tests
-	Test test;
+int main(int argc, char* argv[]) {
+	// Test
+	if(argv[1] == "test") {
+		Test test;
+		return 0;
+	}
 
 	// Start timer
 	auto start = chrono::high_resolution_clock::now();
@@ -33,7 +36,7 @@ int main() {
 	vector<string> cleanedData = dataset.getCleanedFilePaths();
 
 	// Create parameters for moving average crossover lengths
-	Paramaterization parameters(500);
+	Paramaterization parameters(5);
 	vector<MovingAverageCrossover> movingAverageCrossovers = parameters.getTestingValues();
 
 	for (size_t i = 0; i < cleanedData.size(); i++) {

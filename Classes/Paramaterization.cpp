@@ -20,7 +20,7 @@ private:
 				if(i < j) {
 					int slow = j;
 					int fast = i;
-					movingAverageCrossoverObjects.push_back(MovingAverageCrossover(slow, fast));
+					movingAverageCrossoverObjects.push_back(MovingAverageCrossover(fast, slow));
 				}
 			}
 		}	

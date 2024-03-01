@@ -7,19 +7,21 @@
 
 class MovingAverageCrossover {
 private:
+
+public:
 	MovingAverage fast;
 	MovingAverage slow;
 
-	Portfolio portfolio;
+	Portfolio portfolio = Portfolio();
 
-public:
 	MovingAverageCrossover(int fastLength, int slowLength) : fast(fastLength), slow(slowLength) {
-		Portfolio portfolio;
 	}
 
-	void calculateMovingAverage(double currentPrice) {
+	void updateMovingAverageCrossover(double currentPrice) {
 		fast.update(currentPrice);
 		slow.update(currentPrice);
+
+		portfolio.updatePortfolio(getSignal(), currentPrice);		
 	}
 
 	IndicatorDirection getSignal() {
