@@ -3,19 +3,15 @@
 
 #include <string>
 
+
+#include "IndicatorDirection.cpp"
+
 using namespace std;
 
 class Trade {
 private:
 	double entryPrice;
 	double currentPrice;
-
-	enum IndicatorDirection {
-		LONG,
-		SHORT,
-		NEUTRAL,
-		NONE
-	};
 
 	IndicatorDirection currentDirection;
 

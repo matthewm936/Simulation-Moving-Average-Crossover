@@ -10,11 +10,6 @@ using namespace std;
 
 class Paramaterization {
 
-	// notes for htis class:
-	// 1. This class will be used to store the paramaterization of the moving average crossover
-	// which then can be passed into the ma for testing later
-	// so this needs to be able to loop through and give the correct paramaterization to the ma
-	// the input will be the tested values
 private:
     vector<MovingAverageCrossover> movingAverageCrossoverObjects;
 
@@ -29,7 +24,6 @@ private:
 				}
 			}
 		}	
-		// cout << "Parameterization values created for: " << testingSize << endl;
 	}
 
 public:

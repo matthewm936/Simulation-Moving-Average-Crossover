@@ -2,21 +2,20 @@
 #define MOVINGAVERAGECROSSOVER_CPP
 
 #include "MovingAverage.cpp"
+#include "Portfolio.cpp"
+#include "IndicatorDirection.cpp"
 
 class MovingAverageCrossover {
 private:
 	MovingAverage fast;
 	MovingAverage slow;
 
-	enum IndicatorDirection {
-		LONG,
-		SHORT,
-		NEUTRAL,
-		NONE
-	};
+	Portfolio portfolio;
 
 public:
-	MovingAverageCrossover(int fastLength, int slowLength) : fast(fastLength), slow(slowLength) {}
+	MovingAverageCrossover(int fastLength, int slowLength) : fast(fastLength), slow(slowLength) {
+		Portfolio portfolio;
+	}
 
 	void calculateMovingAverage(double currentPrice) {
 		fast.update(currentPrice);
@@ -25,11 +24,11 @@ public:
 
 	IndicatorDirection getSignal() {
 		if(fast.getAverage() > slow.getAverage()) {
-			return LONG;
+			return IndicatorDirection::LONG;
 		} else if(fast.getAverage() < slow.getAverage()) {
-			return SHORT;
+			return IndicatorDirection::SHORT;
 		} else {
-			return NEUTRAL;
+			return IndicatorDirection::NEUTRAL;
 		}
 	}
 };
