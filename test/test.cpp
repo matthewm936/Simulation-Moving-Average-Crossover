@@ -20,11 +20,14 @@ class Test {
 		void testParameterization() {
 			int size = 10;
 			Paramaterization params(size);
-			vector<MovingAverageCrossover> testingValues = params.getTestingValues();
-			// for(const auto& lengths : testingValues) {
-			// 	assert(lengths.getSlow() > lengths.getFast());
-			// }
-			assert(testingValues.size() < size * size);
+			vector<MovingAverageCrossover> MAC = params.getTestingValues();
+			for(auto& lengths : MAC) {
+				assert(lengths.slow.getLength() > lengths.fast.getLength());
+			}
+			cout << "TEST: Parameterization" << endl;
+			cout << "Params Size: " << size << endl;
+			cout << MAC.size() << endl;
+			assert(MAC.size() < size * size);
 		}
 
 		void testSMAUpdate() {
@@ -75,3 +78,8 @@ class Test {
 			cout << "TEST: SMA update" << endl;
 		}
 };
+
+int main() {
+	Test test = Test();
+	return 0;
+}

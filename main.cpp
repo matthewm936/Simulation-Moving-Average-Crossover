@@ -2,7 +2,7 @@
 #include "Classes\Portfolio.cpp"
 #include "Classes\Simulation.cpp"
 #include "Classes\Dataset.cpp"
-#include "test\test.cpp"
+// #include "test\test.cpp"
 #include "Classes\Paramaterization.cpp"
 
 #include <iostream>
@@ -11,10 +11,10 @@
 
 int main(int argc, char* argv[]) {
 	// Test
-	if(argv[1] == "test") {
-		Test test;
-		return 0;
-	}
+	// if(true) {
+	// 	Test test;
+	// 	return 0;
+	// }
 
 	// Start timer
 	auto start = chrono::high_resolution_clock::now();

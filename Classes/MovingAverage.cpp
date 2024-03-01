@@ -50,11 +50,11 @@ public:
 		return values;
 	}
 
-	int getLength() {
+	const int getLength() {
 		return length;
 	}
 
-	int getSize() {
+	const int getSize() {
 		return size;
 	}
 
