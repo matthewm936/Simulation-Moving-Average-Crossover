@@ -37,9 +37,14 @@ public:
 			return;
 		}
 
-		getline(file, filetext); // Skip the header
+		// Setup output file
+		string outputFile = "Results of " + fileName.substr(fileName.find_last_of("/\\") + 1) + ".txt";
+
+		std::ofstream outputFilestream(outputFile);
 
 		for(auto& MAcrossover : movingAverageCrossovers) {
+			getline(file, filetext); // Skip the header
+
 			while (getline(file, filetext)) {
 				vector<string> row;
 				stringstream ss(filetext);
@@ -55,13 +60,14 @@ public:
 				MAcrossover.updateMovingAverageCrossover(stod(row[1]));
 				MAcrossover.getSignal();
 			}
-			// cout << "--------------------------------" << endl 
-			// 	<< "Fast length: " << MAcrossover.fast.getLength()
-			// 	<< " Slow length: " << MAcrossover.slow.getLength()
-			// 	<< endl
-			// 	<< "Total returns: " 
-			// 	<< MAcrossover.portfolio.getTotalReturns() << endl
-			// 	<< "--------------------------------" << endl;
+			if (outputFilestream.is_open()) {
+				outputFilestream << "% return: " << MAcrossover.portfolio.getTotalReturns() << " slow/fast: " << MAcrossover.slow.getLength() << " " << MAcrossover.fast.getLength() << "\n";
+			} else {
+				std::cout << "Unable to open file";
+			}
+
+			file.clear();
+			file.seekg(0, ios::beg);
 		}	
 	}
 };

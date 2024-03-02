@@ -14,8 +14,8 @@ int main(int argc, char* argv[]) {
 
 	// Setup data
 	vector<string> rawDataFiles = { 
-		// "./Raw Data/BTC-USD-Daily-Yahoo.csv", 
-		"./Raw Data/BTC-USD-Monthly-Yahoo.csv", 
+		"./Raw Data/BTC-USD-Daily-Yahoo.csv", 
+		// "./Raw Data/BTC-USD-Monthly-Yahoo.csv", 
 		// "./Raw Data/BTC-USD-Weekly-Yahoo.csv" 
 	};
 	vector<string> subsectionDataFiles = { 
@@ -29,7 +29,7 @@ int main(int argc, char* argv[]) {
 	vector<string> cleanedData = dataset.getCleanedFilePaths();
 
 	// Create parameters for moving average crossover lengths
-	Paramaterization parameters(5);
+	Paramaterization parameters(50);
 	vector<MovingAverageCrossover> movingAverageCrossovers = parameters.getTestingValues();
 
 	for (size_t i = 0; i < cleanedData.size(); i++) {
