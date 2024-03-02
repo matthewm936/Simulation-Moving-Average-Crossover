@@ -15,6 +15,8 @@ public:
 	Portfolio portfolio = Portfolio();
 
 	MovingAverageCrossover(int fastLength, int slowLength) : fast(fastLength), slow(slowLength) {
+		fast.speed = "fast";
+		slow.speed = "slow";
 	}
 
 	void updateMovingAverageCrossover(double currentPrice) {

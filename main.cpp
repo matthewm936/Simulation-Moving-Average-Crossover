@@ -2,7 +2,6 @@
 #include "Classes\Portfolio.cpp"
 #include "Classes\Simulation.cpp"
 #include "Classes\Dataset.cpp"
-// #include "test\test.cpp"
 #include "Classes\Paramaterization.cpp"
 
 #include <iostream>
@@ -10,12 +9,6 @@
 #include <cmath>
 
 int main(int argc, char* argv[]) {
-	// Test
-	// if(true) {
-	// 	Test test;
-	// 	return 0;
-	// }
-
 	// Start timer
 	auto start = chrono::high_resolution_clock::now();
 

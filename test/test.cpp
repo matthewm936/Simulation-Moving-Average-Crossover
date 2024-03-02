@@ -14,20 +14,39 @@ class Test {
 		Test() {
 			testSMAUpdate();
 			testParameterization();
+			testPrameterizationSize();
+			testMovingAverageCrossover();
 		}
 
 	private:
+
+		void testMovingAverageCrossover() {
+			MovingAverageCrossover MAC = MovingAverageCrossover(5, 10);
+			assert(MAC.fast.getLength() < MAC.slow.getLength());
+			assert(MAC.fast.getLength() == 5);
+			assert(MAC.slow.getLength() == 10);
+		}
+
 		void testParameterization() {
-			int size = 10;
+			int size = 5;
 			Paramaterization params(size);
 			vector<MovingAverageCrossover> MAC = params.getTestingValues();
 			for(auto& lengths : MAC) {
 				assert(lengths.slow.getLength() > lengths.fast.getLength());
 			}
-			cout << "TEST: Parameterization" << endl;
-			cout << "Params Size: " << size << endl;
+			// cout << "TEST: Parameterization" << endl;
+			// cout << "Params Size: " << size << endl;
 			cout << MAC.size() << endl;
 			assert(MAC.size() < size * size);
+		}
+
+		void testPrameterizationSize() {
+			for (int size = 5; size <= 40; size++) {
+				Paramaterization params(size);
+				vector<MovingAverageCrossover> MAC = params.getTestingValues();
+				assert(MAC.size() < (size * size) / 2);
+			}
+			cout << "TEST: Parameterization Size" << endl;
 		}
 
 		void testSMAUpdate() {

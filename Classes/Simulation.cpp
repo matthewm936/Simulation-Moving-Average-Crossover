@@ -55,13 +55,13 @@ public:
 				MAcrossover.updateMovingAverageCrossover(stod(row[1]));
 				MAcrossover.getSignal();
 			}
-			cout << "--------------------------------" << endl 
-				<< "Fast length: " << MAcrossover.fast.getLength()
-				<< " Slow length: " << MAcrossover.slow.getLength()
-				<< endl
-				<< "Total returns: " 
-				<< MAcrossover.portfolio.getTotalReturns() << endl
-				<< "--------------------------------" << endl;
+			// cout << "--------------------------------" << endl 
+			// 	<< "Fast length: " << MAcrossover.fast.getLength()
+			// 	<< " Slow length: " << MAcrossover.slow.getLength()
+			// 	<< endl
+			// 	<< "Total returns: " 
+			// 	<< MAcrossover.portfolio.getTotalReturns() << endl
+			// 	<< "--------------------------------" << endl;
 		}	
 	}
 };

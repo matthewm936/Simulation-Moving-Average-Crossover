@@ -19,6 +19,8 @@ private:
 	deque<double> values;
 
 public:
+	string speed;
+
 	MovingAverage(int length) {
 		this->length = length;
 		size = 0;
@@ -66,8 +68,8 @@ public:
 		cout << endl;
 	}
 
-	void state() {
-		string state = "Length: " + to_string(length) + " Size: " + to_string(size) + " Average: " + to_string(average) + " Sum: " + to_string(sum);
+	void printState() {
+		string state = this->speed + " Length: " + to_string(length) + " Size: " + to_string(size) + " Average: " + to_string(average) + " Sum: " + to_string(sum);
 		cout << state << endl;
 		printValues();
 	}
