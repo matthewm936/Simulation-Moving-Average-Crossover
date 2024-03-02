@@ -6,6 +6,8 @@
 #include "..\Classes\Paramaterization.cpp"
 #include "..\Classes\MovingAverage.cpp"
 #include "..\Classes\MovingAverageCrossover.cpp"
+#include "..\Classes\Dataset.cpp"
+#include "..\Classes\Simulation.cpp"
 
 using namespace std;
 
@@ -21,10 +23,21 @@ class Test {
 	private:
 
 		void testMovingAverageCrossover() {
-			MovingAverageCrossover MAC = MovingAverageCrossover(5, 10);
-			assert(MAC.fast.getLength() < MAC.slow.getLength());
-			assert(MAC.fast.getLength() == 5);
-			assert(MAC.slow.getLength() == 10);
+			vector<string> rawDataFiles = { 
+				"./Raw Data/BTC-USD-Monthly-Yahoo.csv"
+			};
+
+			Dataset dataset(rawDataFiles, rawDataFiles);
+			vector<string> cleanedData = dataset.getCleanedFilePaths();
+
+			Paramaterization params(5);
+			vector<MovingAverageCrossover> MAC = params.getTestingValues();
+
+			for (size_t i = 0; i < cleanedData.size(); i++) {
+				// Run simulation trading on each time frame section
+				Simulation sim(cleanedData[i], MAC);
+				sim.run();
+			}
 		}
 
 		void testParameterization() {
