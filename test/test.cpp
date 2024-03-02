@@ -38,7 +38,6 @@ class Test {
 			vector<MovingAverageCrossover> MAC = params.getTestingValues();
 
 			for (size_t i = 0; i < cleanedData.size(); i++) {
-				// Run simulation trading on each time frame section
 				Simulation sim(cleanedData[i], MAC);
 				sim.run();
 			}
@@ -51,9 +50,6 @@ class Test {
 			for(auto& lengths : MAC) {
 				assert(lengths.slow.getLength() > lengths.fast.getLength());
 			}
-			// cout << "TEST: Parameterization" << endl;
-			// cout << "Params Size: " << size << endl;
-			cout << MAC.size() << endl;
 			assert(MAC.size() < size * size);
 		}
 
@@ -63,7 +59,6 @@ class Test {
 				vector<MovingAverageCrossover> MAC = params.getTestingValues();
 				assert(MAC.size() < (size * size) / 2);
 			}
-			cout << "TEST: Parameterization Size" << endl;
 		}
 };
 
