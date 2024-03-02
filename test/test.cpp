@@ -28,7 +28,7 @@ class Test {
 	private:
 		void testMovingAverageCrossover() {
 			vector<string> rawDataFiles = { 
-				"../Raw Data/BTC-USD-Monthly-Yahoo.csv"
+				"./Raw Data/BTC-USD-Monthly-Yahoo.csv"
 			};
 
 			Dataset dataset(rawDataFiles, rawDataFiles);
@@ -68,6 +68,6 @@ class Test {
 };
 
 int main() {
-	Test test = Test();
+	Test test;
 	return 0;
 }

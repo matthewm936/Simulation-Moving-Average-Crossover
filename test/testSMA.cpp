@@ -49,7 +49,7 @@ void testSMA() {
 
 	deque<double> values = ma.getValues();
 
-	cout << "TEST: SMA update" << endl;
+	cout << "PASSED: SMA update" << endl;
 }
 
 #endif
