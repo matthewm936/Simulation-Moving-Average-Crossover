@@ -7,6 +7,7 @@
 const void assertLengthGreaterOrEqualSize(MovingAverageCrossover& mac) {
 	assert(mac.slow.getLength() >= mac.slow.getSize());
 	assert(mac.fast.getLength() >= mac.fast.getSize());
+	assert(mac.slow.getLength() > mac.fast.getLength());
 }
 
 void testMAC() {
@@ -99,7 +100,16 @@ void testMAC() {
 	assert(mac.slow.getAverage() == 6.0);
 	assertLengthGreaterOrEqualSize(mac);
 	assert(mac.getSignal() == IndicatorDirection::SHORT);
-	
+
+	// [10, 11, 1, 2, 100]
+	// [ 1, 2, 100]
+	mac.updateMovingAverageCrossover(100);
+	assert(mac.slow.getAverage() < mac.fast.getAverage());
+	assert(mac.slow.getAverage() == (10 + 11 + 1 + 2 + 100) / 5.0);
+	assert(mac.fast.getAverage() == (1 + 2 + 100) / 3.0); 
+	assertLengthGreaterOrEqualSize(mac);
+	assert(mac.getSignal() == IndicatorDirection::LONG);
+
 	cout << "PASSED: MAC" << endl;
 }
 
