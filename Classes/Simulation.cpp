@@ -9,6 +9,8 @@
 #include <vector>
 #include <fstream>
 #include <filesystem>
+#include <ctime>
+#include <iomanip>
 
 using namespace std;
 
@@ -42,6 +44,18 @@ public:
 
 		std::ofstream outputFilestream(outputFile);
 
+		// Write timestamp once at the beginning of the file
+		if (outputFilestream.is_open()) {
+			std::time_t t = std::time(nullptr);
+			char mbstr[100];
+		if (std::strftime(mbstr, sizeof(mbstr), "%Y-%m-%d %H:%M:%S", std::localtime(&t))) {
+			outputFilestream << mbstr << "\n";
+		}		
+		} else {
+			std::cout << "Unable to open file";
+			return;
+		}
+
 		for(auto& MAcrossover : movingAverageCrossovers) {
 			getline(file, filetext); // Skip the header
 
@@ -57,14 +71,11 @@ public:
 				// CSV file layout
 				// Date, Open, High, Low, Close, Adj Close, Volume
 				// 0     1     2     3    4      5          6
-				MAcrossover.updateMovingAverageCrossover(stod(row[1]));
-				MAcrossover.getSignal();
+				double open  = stod(row[1]);
+				MAcrossover.updateMovingAverageCrossover(open);
+				MAcrossover.updatePortfolio(open);
 			}
-			if (outputFilestream.is_open()) {
-				outputFilestream << "% return: " << MAcrossover.portfolio.getTotalReturns() << " slow/fast: " << MAcrossover.slow.getLength() << " " << MAcrossover.fast.getLength() << "\n";
-			} else {
-				std::cout << "Unable to open file";
-			}
+			outputFilestream << MAcrossover.portfolio.getTradeStats() << "\n";
 
 			file.clear();
 			file.seekg(0, ios::beg);

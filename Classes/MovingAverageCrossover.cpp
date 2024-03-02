@@ -23,7 +23,10 @@ public:
 		fast.update(currentPrice);
 		slow.update(currentPrice);
 
-		portfolio.updatePortfolio(getSignal(), currentPrice);		
+	}
+
+	void updatePortfolio(double currentPrice) {
+		portfolio.updatePortfolio(getSignal(), currentPrice);
 	}
 
 	IndicatorDirection getSignal() {

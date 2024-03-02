@@ -1,1225 +1,1226 @@
-% return: 2.72851 slow/fast: 2 1
-% return: 2.93294 slow/fast: 3 1
-% return: 7.06265 slow/fast: 4 1
-% return: 13.1851 slow/fast: 5 1
-% return: 2.70358 slow/fast: 6 1
-% return: 4.89663 slow/fast: 7 1
-% return: 2.14143 slow/fast: 8 1
-% return: 2.26288 slow/fast: 9 1
-% return: 1.92917 slow/fast: 10 1
-% return: 1.09067 slow/fast: 11 1
-% return: 1.28222 slow/fast: 12 1
-% return: 1.6568 slow/fast: 13 1
-% return: 2.06734 slow/fast: 14 1
-% return: 2.40678 slow/fast: 15 1
-% return: 2.56324 slow/fast: 16 1
-% return: 2.77922 slow/fast: 17 1
-% return: 2.71422 slow/fast: 18 1
-% return: 2.95716 slow/fast: 19 1
-% return: 2.95716 slow/fast: 20 1
-% return: 2.86887 slow/fast: 21 1
-% return: 2.86887 slow/fast: 22 1
-% return: 3.1481 slow/fast: 23 1
-% return: 3.25416 slow/fast: 24 1
-% return: 3.15814 slow/fast: 25 1
-% return: 3.5408 slow/fast: 26 1
-% return: 4.25281 slow/fast: 27 1
-% return: 3.90059 slow/fast: 28 1
-% return: 3.90059 slow/fast: 29 1
-% return: 3.10931 slow/fast: 30 1
-% return: 3.10931 slow/fast: 31 1
-% return: 3.10931 slow/fast: 32 1
-% return: 3.10862 slow/fast: 33 1
-% return: 2.90545 slow/fast: 34 1
-% return: 2.90545 slow/fast: 35 1
-% return: 2.70042 slow/fast: 36 1
-% return: 2.70153 slow/fast: 37 1
-% return: 2.51268 slow/fast: 38 1
-% return: 2.59695 slow/fast: 39 1
-% return: 1.72555 slow/fast: 40 1
-% return: 1.83262 slow/fast: 41 1
-% return: 1.83262 slow/fast: 42 1
-% return: 1.766 slow/fast: 43 1
-% return: 1.68412 slow/fast: 44 1
-% return: 1.68412 slow/fast: 45 1
-% return: 1.63704 slow/fast: 46 1
-% return: 1.46475 slow/fast: 47 1
-% return: 1.46475 slow/fast: 48 1
-% return: 1.60683 slow/fast: 49 1
-% return: 0.987099 slow/fast: 50 1
-% return: 3.27448 slow/fast: 3 2
-% return: 4.22988 slow/fast: 4 2
-% return: 5.49003 slow/fast: 5 2
-% return: 2.48345 slow/fast: 6 2
-% return: 1.55603 slow/fast: 7 2
-% return: 2.47129 slow/fast: 8 2
-% return: 1.26172 slow/fast: 9 2
-% return: 1.31839 slow/fast: 10 2
-% return: 2.4324 slow/fast: 11 2
-% return: 1.75135 slow/fast: 12 2
-% return: 1.7049 slow/fast: 13 2
-% return: 2.1458 slow/fast: 14 2
-% return: 2.28254 slow/fast: 15 2
-% return: 2.51964 slow/fast: 16 2
-% return: 3.19724 slow/fast: 17 2
-% return: 3.1141 slow/fast: 18 2
-% return: 2.83686 slow/fast: 19 2
-% return: 2.84768 slow/fast: 20 2
-% return: 2.51519 slow/fast: 21 2
-% return: 2.51519 slow/fast: 22 2
-% return: 2.50512 slow/fast: 23 2
-% return: 2.38442 slow/fast: 24 2
-% return: 2.38442 slow/fast: 25 2
-% return: 2.43102 slow/fast: 26 2
-% return: 3.08614 slow/fast: 27 2
-% return: 3.08614 slow/fast: 28 2
-% return: 3.08614 slow/fast: 29 2
-% return: 2.79074 slow/fast: 30 2
-% return: 2.79074 slow/fast: 31 2
-% return: 2.79074 slow/fast: 32 2
-% return: 2.84918 slow/fast: 33 2
-% return: 2.74498 slow/fast: 34 2
-% return: 2.70104 slow/fast: 35 2
-% return: 2.16829 slow/fast: 36 2
-% return: 2.31711 slow/fast: 37 2
-% return: 1.88593 slow/fast: 38 2
-% return: 1.63874 slow/fast: 39 2
-% return: 1.63874 slow/fast: 40 2
-% return: 1.63874 slow/fast: 41 2
-% return: 1.56143 slow/fast: 42 2
-% return: 1.63565 slow/fast: 43 2
-% return: 1.69306 slow/fast: 44 2
-% return: 1.02222 slow/fast: 45 2
-% return: 1.02222 slow/fast: 46 2
-% return: 1.07719 slow/fast: 47 2
-% return: 0.949091 slow/fast: 48 2
-% return: 0.949091 slow/fast: 49 2
-% return: 0.880402 slow/fast: 50 2
-% return: 5.71121 slow/fast: 4 3
-% return: 3.5254 slow/fast: 5 3
-% return: 5.48764 slow/fast: 6 3
-% return: 1.80801 slow/fast: 7 3
-% return: 2.18488 slow/fast: 8 3
-% return: 2.94473 slow/fast: 9 3
-% return: 2.54437 slow/fast: 10 3
-% return: 2.53588 slow/fast: 11 3
-% return: 2.03194 slow/fast: 12 3
-% return: 2.18516 slow/fast: 13 3
-% return: 2.20426 slow/fast: 14 3
-% return: 2.56418 slow/fast: 15 3
-% return: 2.75039 slow/fast: 16 3
-% return: 2.64109 slow/fast: 17 3
-% return: 2.8536 slow/fast: 18 3
-% return: 2.3887 slow/fast: 19 3
-% return: 2.48382 slow/fast: 20 3
-% return: 2.51644 slow/fast: 21 3
-% return: 2.48423 slow/fast: 22 3
-% return: 2.47796 slow/fast: 23 3
-% return: 2.47796 slow/fast: 24 3
-% return: 2.36461 slow/fast: 25 3
-% return: 2.1847 slow/fast: 26 3
-% return: 2.61282 slow/fast: 27 3
-% return: 2.48255 slow/fast: 28 3
-% return: 2.85793 slow/fast: 29 3
-% return: 2.92559 slow/fast: 30 3
-% return: 4.16035 slow/fast: 31 3
-% return: 4.16035 slow/fast: 32 3
-% return: 2.84552 slow/fast: 33 3
-% return: 2.84552 slow/fast: 34 3
-% return: 2.88899 slow/fast: 35 3
-% return: 2.95473 slow/fast: 36 3
-% return: 2.98996 slow/fast: 37 3
-% return: 2.63066 slow/fast: 38 3
-% return: 2.57428 slow/fast: 39 3
-% return: 2.25187 slow/fast: 40 3
-% return: 2.15467 slow/fast: 41 3
-% return: 2.24976 slow/fast: 42 3
-% return: 1.35972 slow/fast: 43 3
-% return: 1.30771 slow/fast: 44 3
-% return: 1.37934 slow/fast: 45 3
-% return: 1.37934 slow/fast: 46 3
-% return: 1.49952 slow/fast: 47 3
-% return: 1.49952 slow/fast: 48 3
-% return: 1.49952 slow/fast: 49 3
-% return: 1.32405 slow/fast: 50 3
-% return: 3.27887 slow/fast: 5 4
-% return: 3.53946 slow/fast: 6 4
-% return: 0.899887 slow/fast: 7 4
-% return: 0.894538 slow/fast: 8 4
-% return: 0.885768 slow/fast: 9 4
-% return: 1.45656 slow/fast: 10 4
-% return: 1.24915 slow/fast: 11 4
-% return: 1.56669 slow/fast: 12 4
-% return: 2.48665 slow/fast: 13 4
-% return: 2.20609 slow/fast: 14 4
-% return: 1.93034 slow/fast: 15 4
-% return: 2.158 slow/fast: 16 4
-% return: 2.41614 slow/fast: 17 4
-% return: 1.74689 slow/fast: 18 4
-% return: 1.89527 slow/fast: 19 4
-% return: 1.80021 slow/fast: 20 4
-% return: 1.63064 slow/fast: 21 4
-% return: 2.82569 slow/fast: 22 4
-% return: 3.14801 slow/fast: 23 4
-% return: 3.2789 slow/fast: 24 4
-% return: 2.87861 slow/fast: 25 4
-% return: 3.21449 slow/fast: 26 4
-% return: 3.07201 slow/fast: 27 4
-% return: 3.08024 slow/fast: 28 4
-% return: 3.22421 slow/fast: 29 4
-% return: 2.40621 slow/fast: 30 4
-% return: 2.40621 slow/fast: 31 4
-% return: 2.39378 slow/fast: 32 4
-% return: 2.39378 slow/fast: 33 4
-% return: 2.39378 slow/fast: 34 4
-% return: 2.42232 slow/fast: 35 4
-% return: 2.19868 slow/fast: 36 4
-% return: 2.15808 slow/fast: 37 4
-% return: 2.10853 slow/fast: 38 4
-% return: 1.70791 slow/fast: 39 4
-% return: 1.64341 slow/fast: 40 4
-% return: 1.63545 slow/fast: 41 4
-% return: 1.46669 slow/fast: 42 4
-% return: 0.821953 slow/fast: 43 4
-% return: 0.867074 slow/fast: 44 4
-% return: 0.867074 slow/fast: 45 4
-% return: 0.802262 slow/fast: 46 4
-% return: 0.828931 slow/fast: 47 4
-% return: 0.828931 slow/fast: 48 4
-% return: 0.828931 slow/fast: 49 4
-% return: 0.828931 slow/fast: 50 4
-% return: 3.27351 slow/fast: 6 5
-% return: 1.67838 slow/fast: 7 5
-% return: 0.793303 slow/fast: 8 5
-% return: 1.02078 slow/fast: 9 5
-% return: 1.05867 slow/fast: 10 5
-% return: 1.22771 slow/fast: 11 5
-% return: 1.37697 slow/fast: 12 5
-% return: 1.94013 slow/fast: 13 5
-% return: 2.14716 slow/fast: 14 5
-% return: 2.16018 slow/fast: 15 5
-% return: 2.1771 slow/fast: 16 5
-% return: 2.58218 slow/fast: 17 5
-% return: 3.05707 slow/fast: 18 5
-% return: 3.21658 slow/fast: 19 5
-% return: 2.89038 slow/fast: 20 5
-% return: 2.67245 slow/fast: 21 5
-% return: 2.6213 slow/fast: 22 5
-% return: 2.6845 slow/fast: 23 5
-% return: 2.108 slow/fast: 24 5
-% return: 2.31068 slow/fast: 25 5
-% return: 2.31068 slow/fast: 26 5
-% return: 2.39521 slow/fast: 27 5
-% return: 1.78753 slow/fast: 28 5
-% return: 1.82821 slow/fast: 29 5
-% return: 1.59699 slow/fast: 30 5
-% return: 1.59699 slow/fast: 31 5
-% return: 1.61718 slow/fast: 32 5
-% return: 1.61718 slow/fast: 33 5
-% return: 1.41848 slow/fast: 34 5
-% return: 1.38396 slow/fast: 35 5
-% return: 1.38396 slow/fast: 36 5
-% return: 1.38396 slow/fast: 37 5
-% return: 1.2029 slow/fast: 38 5
-% return: 1.15348 slow/fast: 39 5
-% return: 1.15348 slow/fast: 40 5
-% return: 1.07761 slow/fast: 41 5
-% return: 0.602325 slow/fast: 42 5
-% return: 0.635397 slow/fast: 43 5
-% return: 0.635397 slow/fast: 44 5
-% return: 0.585735 slow/fast: 45 5
-% return: 0.607684 slow/fast: 46 5
-% return: 0.607684 slow/fast: 47 5
-% return: 0.590975 slow/fast: 48 5
-% return: 0.590975 slow/fast: 49 5
-% return: 0.895392 slow/fast: 50 5
-% return: 1.53501 slow/fast: 7 6
-% return: 1.98563 slow/fast: 8 6
-% return: 1.2386 slow/fast: 9 6
-% return: 1.31791 slow/fast: 10 6
-% return: 1.20063 slow/fast: 11 6
-% return: 1.4914 slow/fast: 12 6
-% return: 1.38219 slow/fast: 13 6
-% return: 2.9573 slow/fast: 14 6
-% return: 2.84873 slow/fast: 15 6
-% return: 2.95136 slow/fast: 16 6
-% return: 3.31091 slow/fast: 17 6
-% return: 3.43414 slow/fast: 18 6
-% return: 4.22225 slow/fast: 19 6
-% return: 3.95493 slow/fast: 20 6
-% return: 3.51734 slow/fast: 21 6
-% return: 2.44686 slow/fast: 22 6
-% return: 3.04894 slow/fast: 23 6
-% return: 1.5067 slow/fast: 24 6
-% return: 1.62737 slow/fast: 25 6
-% return: 1.48066 slow/fast: 26 6
-% return: 1.75126 slow/fast: 27 6
-% return: 1.79429 slow/fast: 28 6
-% return: 1.79429 slow/fast: 29 6
-% return: 1.81698 slow/fast: 30 6
-% return: 1.81698 slow/fast: 31 6
-% return: 1.59373 slow/fast: 32 6
-% return: 1.55494 slow/fast: 33 6
-% return: 1.53323 slow/fast: 34 6
-% return: 1.3298 slow/fast: 35 6
-% return: 1.3298 slow/fast: 36 6
-% return: 1.29242 slow/fast: 37 6
-% return: 1.29242 slow/fast: 38 6
-% return: 1.29242 slow/fast: 39 6
-% return: 1.29242 slow/fast: 40 6
-% return: 0.707589 slow/fast: 41 6
-% return: 0.753666 slow/fast: 42 6
-% return: 0.761919 slow/fast: 43 6
-% return: 0.741301 slow/fast: 44 6
-% return: 0.714942 slow/fast: 45 6
-% return: 0.718091 slow/fast: 46 6
-% return: 0.718091 slow/fast: 47 6
-% return: 1.06768 slow/fast: 48 6
-% return: 1.06768 slow/fast: 49 6
-% return: 1.06768 slow/fast: 50 6
-% return: 1.5682 slow/fast: 8 7
-% return: 3.29014 slow/fast: 9 7
-% return: 1.18872 slow/fast: 10 7
-% return: 1.4398 slow/fast: 11 7
-% return: 1.52721 slow/fast: 12 7
-% return: 2.03061 slow/fast: 13 7
-% return: 3.17993 slow/fast: 14 7
-% return: 3.10989 slow/fast: 15 7
-% return: 3.85191 slow/fast: 16 7
-% return: 3.77463 slow/fast: 17 7
-% return: 4.32978 slow/fast: 18 7
-% return: 4.57754 slow/fast: 19 7
-% return: 5.33519 slow/fast: 20 7
-% return: 5.43439 slow/fast: 21 7
-% return: 3.07561 slow/fast: 22 7
-% return: 2.67192 slow/fast: 23 7
-% return: 2.12191 slow/fast: 24 7
-% return: 1.89874 slow/fast: 25 7
-% return: 1.8173 slow/fast: 26 7
-% return: 1.93917 slow/fast: 27 7
-% return: 1.93917 slow/fast: 28 7
-% return: 1.96292 slow/fast: 29 7
-% return: 1.77123 slow/fast: 30 7
-% return: 1.73807 slow/fast: 31 7
-% return: 1.69709 slow/fast: 32 7
-% return: 1.69709 slow/fast: 33 7
-% return: 1.41339 slow/fast: 34 7
-% return: 1.43251 slow/fast: 35 7
-% return: 1.43251 slow/fast: 36 7
-% return: 1.43251 slow/fast: 37 7
-% return: 0.826986 slow/fast: 38 7
-% return: 0.826986 slow/fast: 39 7
-% return: 0.785719 slow/fast: 40 7
-% return: 0.785719 slow/fast: 41 7
-% return: 0.785719 slow/fast: 42 7
-% return: 0.824432 slow/fast: 43 7
-% return: 0.699652 slow/fast: 44 7
-% return: 0.762873 slow/fast: 45 7
-% return: 1.10381 slow/fast: 46 7
-% return: 1.07583 slow/fast: 47 7
-% return: 1.07583 slow/fast: 48 7
-% return: 1.01909 slow/fast: 49 7
-% return: 0.996719 slow/fast: 50 7
-% return: 2.46397 slow/fast: 9 8
-% return: 2.33181 slow/fast: 10 8
-% return: 1.49997 slow/fast: 11 8
-% return: 2.29034 slow/fast: 12 8
-% return: 2.22119 slow/fast: 13 8
-% return: 3.9659 slow/fast: 14 8
-% return: 4.10887 slow/fast: 15 8
-% return: 4.81073 slow/fast: 16 8
-% return: 3.67935 slow/fast: 17 8
-% return: 4.53652 slow/fast: 18 8
-% return: 5.41017 slow/fast: 19 8
-% return: 6.41576 slow/fast: 20 8
-% return: 3.42898 slow/fast: 21 8
-% return: 3.42898 slow/fast: 22 8
-% return: 3.75978 slow/fast: 23 8
-% return: 3.68342 slow/fast: 24 8
-% return: 3.28602 slow/fast: 25 8
-% return: 2.83575 slow/fast: 26 8
-% return: 3.02592 slow/fast: 27 8
-% return: 3.02592 slow/fast: 28 8
-% return: 3.021 slow/fast: 29 8
-% return: 3.021 slow/fast: 30 8
-% return: 2.89235 slow/fast: 31 8
-% return: 2.86738 slow/fast: 32 8
-% return: 2.37799 slow/fast: 33 8
-% return: 2.37799 slow/fast: 34 8
-% return: 2.37799 slow/fast: 35 8
-% return: 1.29993 slow/fast: 36 8
-% return: 1.29167 slow/fast: 37 8
-% return: 1.29167 slow/fast: 38 8
-% return: 1.29167 slow/fast: 39 8
-% return: 1.29167 slow/fast: 40 8
-% return: 1.29167 slow/fast: 41 8
-% return: 1.36758 slow/fast: 42 8
-% return: 2.03775 slow/fast: 43 8
-% return: 2.15137 slow/fast: 44 8
-% return: 1.95297 slow/fast: 45 8
-% return: 1.82549 slow/fast: 46 8
-% return: 1.83272 slow/fast: 47 8
-% return: 1.79248 slow/fast: 48 8
-% return: 1.69794 slow/fast: 49 8
-% return: 1.69794 slow/fast: 50 8
-% return: 2.15851 slow/fast: 10 9
-% return: 1.2154 slow/fast: 11 9
-% return: 1.89092 slow/fast: 12 9
-% return: 3.67913 slow/fast: 13 9
-% return: 3.24714 slow/fast: 14 9
-% return: 3.58205 slow/fast: 15 9
-% return: 4.02877 slow/fast: 16 9
-% return: 4.26196 slow/fast: 17 9
-% return: 4.66193 slow/fast: 18 9
-% return: 5.63079 slow/fast: 19 9
-% return: 5.86876 slow/fast: 20 9
-% return: 3.71853 slow/fast: 21 9
-% return: 3.80315 slow/fast: 22 9
-% return: 3.69296 slow/fast: 23 9
-% return: 3.6419 slow/fast: 24 9
-% return: 3.38513 slow/fast: 25 9
-% return: 2.76355 slow/fast: 26 9
-% return: 2.76355 slow/fast: 27 9
-% return: 2.95097 slow/fast: 28 9
-% return: 2.98748 slow/fast: 29 9
-% return: 2.86172 slow/fast: 30 9
-% return: 2.88128 slow/fast: 31 9
-% return: 2.76548 slow/fast: 32 9
-% return: 2.76548 slow/fast: 33 9
-% return: 2.38233 slow/fast: 34 9
-% return: 2.62546 slow/fast: 35 9
-% return: 1.58145 slow/fast: 36 9
-% return: 1.58145 slow/fast: 37 9
-% return: 1.66712 slow/fast: 38 9
-% return: 1.66712 slow/fast: 39 9
-% return: 1.63868 slow/fast: 40 9
-% return: 2.40616 slow/fast: 41 9
-% return: 2.40616 slow/fast: 42 9
-% return: 2.53036 slow/fast: 43 9
-% return: 2.53036 slow/fast: 44 9
-% return: 2.6145 slow/fast: 45 9
-% return: 2.3972 slow/fast: 46 9
-% return: 2.49909 slow/fast: 47 9
-% return: 2.13559 slow/fast: 48 9
-% return: 2.13559 slow/fast: 49 9
-% return: 2.03218 slow/fast: 50 9
-% return: 1.38261 slow/fast: 11 10
-% return: 2.57078 slow/fast: 12 10
-% return: 3.36769 slow/fast: 13 10
-% return: 2.49263 slow/fast: 14 10
-% return: 3.74912 slow/fast: 15 10
-% return: 3.8565 slow/fast: 16 10
-% return: 4.30263 slow/fast: 17 10
-% return: 5.36687 slow/fast: 18 10
-% return: 6.7108 slow/fast: 19 10
-% return: 6.79344 slow/fast: 20 10
-% return: 4.42319 slow/fast: 21 10
-% return: 3.96751 slow/fast: 22 10
-% return: 3.80113 slow/fast: 23 10
-% return: 3.40098 slow/fast: 24 10
-% return: 3.40098 slow/fast: 25 10
-% return: 3.47574 slow/fast: 26 10
-% return: 2.85218 slow/fast: 27 10
-% return: 3.06348 slow/fast: 28 10
-% return: 3.08856 slow/fast: 29 10
-% return: 3.02016 slow/fast: 30 10
-% return: 2.9075 slow/fast: 31 10
-% return: 2.52047 slow/fast: 32 10
-% return: 2.57052 slow/fast: 33 10
-% return: 2.45051 slow/fast: 34 10
-% return: 2.45051 slow/fast: 35 10
-% return: 1.48832 slow/fast: 36 10
-% return: 1.53561 slow/fast: 37 10
-% return: 1.53561 slow/fast: 38 10
-% return: 1.60387 slow/fast: 39 10
-% return: 2.44108 slow/fast: 40 10
-% return: 2.44108 slow/fast: 41 10
-% return: 2.44108 slow/fast: 42 10
-% return: 2.44108 slow/fast: 43 10
-% return: 2.46813 slow/fast: 44 10
-% return: 2.47781 slow/fast: 45 10
-% return: 2.31463 slow/fast: 46 10
-% return: 2.41213 slow/fast: 47 10
-% return: 2.30079 slow/fast: 48 10
-% return: 2.04549 slow/fast: 49 10
-% return: 2.04549 slow/fast: 50 10
-% return: 1.46981 slow/fast: 12 11
-% return: 1.31542 slow/fast: 13 11
-% return: 1.43818 slow/fast: 14 11
-% return: 3.06586 slow/fast: 15 11
-% return: 3.46214 slow/fast: 16 11
-% return: 5.9271 slow/fast: 17 11
-% return: 7.6265 slow/fast: 18 11
-% return: 6.63711 slow/fast: 19 11
-% return: 7.41409 slow/fast: 20 11
-% return: 3.85161 slow/fast: 21 11
-% return: 3.97068 slow/fast: 22 11
-% return: 3.03485 slow/fast: 23 11
-% return: 2.99249 slow/fast: 24 11
-% return: 3.05738 slow/fast: 25 11
-% return: 2.4335 slow/fast: 26 11
-% return: 2.4335 slow/fast: 27 11
-% return: 2.19923 slow/fast: 28 11
-% return: 2.36131 slow/fast: 29 11
-% return: 2.36131 slow/fast: 30 11
-% return: 2.35444 slow/fast: 31 11
-% return: 2.26797 slow/fast: 32 11
-% return: 2.16377 slow/fast: 33 11
-% return: 2.16377 slow/fast: 34 11
-% return: 1.30018 slow/fast: 35 11
-% return: 1.36943 slow/fast: 36 11
-% return: 1.36943 slow/fast: 37 11
-% return: 1.43857 slow/fast: 38 11
-% return: 1.43857 slow/fast: 39 11
-% return: 1.86624 slow/fast: 40 11
-% return: 1.87029 slow/fast: 41 11
-% return: 1.87029 slow/fast: 42 11
-% return: 1.8304 slow/fast: 43 11
-% return: 1.83798 slow/fast: 44 11
-% return: 1.83869 slow/fast: 45 11
-% return: 1.6927 slow/fast: 46 11
-% return: 1.76775 slow/fast: 47 11
-% return: 1.69984 slow/fast: 48 11
-% return: 1.5 slow/fast: 49 11
-% return: 2.00673 slow/fast: 50 11
-% return: 3.1483 slow/fast: 13 12
-% return: 1.38419 slow/fast: 14 12
-% return: 2.7448 slow/fast: 15 12
-% return: 4.36697 slow/fast: 16 12
-% return: 7.58399 slow/fast: 17 12
-% return: 6.35005 slow/fast: 18 12
-% return: 7.05629 slow/fast: 19 12
-% return: 7.16863 slow/fast: 20 12
-% return: 3.4769 slow/fast: 21 12
-% return: 2.76065 slow/fast: 22 12
-% return: 2.62592 slow/fast: 23 12
-% return: 2.38083 slow/fast: 24 12
-% return: 2.40836 slow/fast: 25 12
-% return: 2.17409 slow/fast: 26 12
-% return: 2.14548 slow/fast: 27 12
-% return: 2.13017 slow/fast: 28 12
-% return: 1.9909 slow/fast: 29 12
-% return: 2.09719 slow/fast: 30 12
-% return: 2.09719 slow/fast: 31 12
-% return: 2.01564 slow/fast: 32 12
-% return: 1.15212 slow/fast: 33 12
-% return: 1.15212 slow/fast: 34 12
-% return: 1.21743 slow/fast: 35 12
-% return: 1.21743 slow/fast: 36 12
-% return: 1.22497 slow/fast: 37 12
-% return: 1.80013 slow/fast: 38 12
-% return: 1.86186 slow/fast: 39 12
-% return: 1.86186 slow/fast: 40 12
-% return: 1.81105 slow/fast: 41 12
-% return: 1.77242 slow/fast: 42 12
-% return: 1.77242 slow/fast: 43 12
-% return: 1.77242 slow/fast: 44 12
-% return: 1.75446 slow/fast: 45 12
-% return: 1.63232 slow/fast: 46 12
-% return: 1.47428 slow/fast: 47 12
-% return: 1.98112 slow/fast: 48 12
-% return: 1.735 slow/fast: 49 12
-% return: 1.735 slow/fast: 50 12
-% return: 1.83905 slow/fast: 14 13
-% return: 2.48059 slow/fast: 15 13
-% return: 3.88735 slow/fast: 16 13
-% return: 5.91628 slow/fast: 17 13
-% return: 6.68292 slow/fast: 18 13
-% return: 6.60253 slow/fast: 19 13
-% return: 4.10247 slow/fast: 20 13
-% return: 2.69805 slow/fast: 21 13
-% return: 2.51856 slow/fast: 22 13
-% return: 2.54768 slow/fast: 23 13
-% return: 1.02543 slow/fast: 24 13
-% return: 0.997238 slow/fast: 25 13
-% return: 0.982467 slow/fast: 26 13
-% return: 0.969537 slow/fast: 27 13
-% return: 0.923488 slow/fast: 28 13
-% return: 0.923488 slow/fast: 29 13
-% return: 0.983979 slow/fast: 30 13
-% return: 0.897619 slow/fast: 31 13
-% return: 0.954335 slow/fast: 32 13
-% return: 0.860757 slow/fast: 33 13
-% return: 0.779621 slow/fast: 34 13
-% return: 0.826255 slow/fast: 35 13
-% return: 0.873368 slow/fast: 36 13
-% return: 1.28345 slow/fast: 37 13
-% return: 1.30965 slow/fast: 38 13
-% return: 1.26155 slow/fast: 39 13
-% return: 1.26705 slow/fast: 40 13
-% return: 1.23961 slow/fast: 41 13
-% return: 1.24011 slow/fast: 42 13
-% return: 1.24011 slow/fast: 43 13
-% return: 1.23696 slow/fast: 44 13
-% return: 1.14631 slow/fast: 45 13
-% return: 1.14631 slow/fast: 46 13
-% return: 1.6119 slow/fast: 47 13
-% return: 1.5466 slow/fast: 48 13
-% return: 1.33304 slow/fast: 49 13
-% return: 1.33304 slow/fast: 50 13
-% return: 3.81662 slow/fast: 15 14
-% return: 5.04852 slow/fast: 16 14
-% return: 7.10723 slow/fast: 17 14
-% return: 5.09864 slow/fast: 18 14
-% return: 7.02754 slow/fast: 19 14
-% return: 3.10793 slow/fast: 20 14
-% return: 2.1972 slow/fast: 21 14
-% return: 2.06021 slow/fast: 22 14
-% return: 0.988679 slow/fast: 23 14
-% return: 0.961494 slow/fast: 24 14
-% return: 0.940268 slow/fast: 25 14
-% return: 0.934126 slow/fast: 26 14
-% return: 0.934126 slow/fast: 27 14
-% return: 0.86495 slow/fast: 28 14
-% return: 0.86495 slow/fast: 29 14
-% return: 0.966076 slow/fast: 30 14
-% return: 0.978288 slow/fast: 31 14
-% return: 0.87412 slow/fast: 32 14
-% return: 0.829013 slow/fast: 33 14
-% return: 0.828729 slow/fast: 34 14
-% return: 1.29114 slow/fast: 35 14
-% return: 1.344 slow/fast: 36 14
-% return: 1.42977 slow/fast: 37 14
-% return: 1.42977 slow/fast: 38 14
-% return: 1.4047 slow/fast: 39 14
-% return: 1.40526 slow/fast: 40 14
-% return: 1.38677 slow/fast: 41 14
-% return: 1.2885 slow/fast: 42 14
-% return: 1.27444 slow/fast: 43 14
-% return: 1.27444 slow/fast: 44 14
-% return: 1.27444 slow/fast: 45 14
-% return: 1.72142 slow/fast: 46 14
-% return: 1.79923 slow/fast: 47 14
-% return: 1.58242 slow/fast: 48 14
-% return: 1.39281 slow/fast: 49 14
-% return: 1.38062 slow/fast: 50 14
-% return: 4.12417 slow/fast: 16 15
-% return: 6.31192 slow/fast: 17 15
-% return: 5.85107 slow/fast: 18 15
-% return: 4.8846 slow/fast: 19 15
-% return: 2.22483 slow/fast: 20 15
-% return: 2.02986 slow/fast: 21 15
-% return: 0.96462 slow/fast: 22 15
-% return: 0.933747 slow/fast: 23 15
-% return: 0.909428 slow/fast: 24 15
-% return: 1.04423 slow/fast: 25 15
-% return: 1.62429 slow/fast: 26 15
-% return: 1.47603 slow/fast: 27 15
-% return: 1.5219 slow/fast: 28 15
-% return: 1.6722 slow/fast: 29 15
-% return: 1.6722 slow/fast: 30 15
-% return: 1.69261 slow/fast: 31 15
-% return: 1.60151 slow/fast: 32 15
-% return: 1.53805 slow/fast: 33 15
-% return: 1.43935 slow/fast: 34 15
-% return: 1.52264 slow/fast: 35 15
-% return: 1.55221 slow/fast: 36 15
-% return: 1.53829 slow/fast: 37 15
-% return: 1.54477 slow/fast: 38 15
-% return: 1.5564 slow/fast: 39 15
-% return: 1.5112 slow/fast: 40 15
-% return: 1.38711 slow/fast: 41 15
-% return: 1.38711 slow/fast: 42 15
-% return: 1.4735 slow/fast: 43 15
-% return: 1.54123 slow/fast: 44 15
-% return: 1.97829 slow/fast: 45 15
-% return: 1.97829 slow/fast: 46 15
-% return: 1.73033 slow/fast: 47 15
-% return: 1.82972 slow/fast: 48 15
-% return: 1.59269 slow/fast: 49 15
-% return: 1.59269 slow/fast: 50 15
-% return: 3.03515 slow/fast: 17 16
-% return: 2.65572 slow/fast: 18 16
-% return: 2.82099 slow/fast: 19 16
-% return: 2.70221 slow/fast: 20 16
-% return: 1.06381 slow/fast: 21 16
-% return: 1.1495 slow/fast: 22 16
-% return: 1.04359 slow/fast: 23 16
-% return: 1.18741 slow/fast: 24 16
-% return: 1.57261 slow/fast: 25 16
-% return: 1.57261 slow/fast: 26 16
-% return: 1.62147 slow/fast: 27 16
-% return: 1.72927 slow/fast: 28 16
-% return: 1.72927 slow/fast: 29 16
-% return: 1.80335 slow/fast: 30 16
-% return: 1.6885 slow/fast: 31 16
-% return: 1.64883 slow/fast: 32 16
-% return: 1.62375 slow/fast: 33 16
-% return: 1.48188 slow/fast: 34 16
-% return: 1.48627 slow/fast: 35 16
-% return: 1.53606 slow/fast: 36 16
-% return: 1.59059 slow/fast: 37 16
-% return: 1.60943 slow/fast: 38 16
-% return: 1.48555 slow/fast: 39 16
-% return: 1.48555 slow/fast: 40 16
-% return: 1.46448 slow/fast: 41 16
-% return: 1.53179 slow/fast: 42 16
-% return: 2.10773 slow/fast: 43 16
-% return: 2.03596 slow/fast: 44 16
-% return: 2.03596 slow/fast: 45 16
-% return: 1.85452 slow/fast: 46 16
-% return: 1.85452 slow/fast: 47 16
-% return: 1.46921 slow/fast: 48 16
-% return: 1.46921 slow/fast: 49 16
-% return: 1.2172 slow/fast: 50 16
-% return: 1.76534 slow/fast: 18 17
-% return: 2.0137 slow/fast: 19 17
-% return: 2.41011 slow/fast: 20 17
-% return: 1.03085 slow/fast: 21 17
-% return: 1.03053 slow/fast: 22 17
-% return: 1.55967 slow/fast: 23 17
-% return: 1.48809 slow/fast: 24 17
-% return: 1.45038 slow/fast: 25 17
-% return: 1.55075 slow/fast: 26 17
-% return: 1.62094 slow/fast: 27 17
-% return: 1.67107 slow/fast: 28 17
-% return: 1.6361 slow/fast: 29 17
-% return: 1.6361 slow/fast: 30 17
-% return: 1.58422 slow/fast: 31 17
-% return: 1.54639 slow/fast: 32 17
-% return: 1.46102 slow/fast: 33 17
-% return: 1.46102 slow/fast: 34 17
-% return: 1.36767 slow/fast: 35 17
-% return: 1.52923 slow/fast: 36 17
-% return: 1.47834 slow/fast: 37 17
-% return: 1.34988 slow/fast: 38 17
-% return: 1.43261 slow/fast: 39 17
-% return: 1.32474 slow/fast: 40 17
-% return: 1.82282 slow/fast: 41 17
-% return: 1.83396 slow/fast: 42 17
-% return: 1.75756 slow/fast: 43 17
-% return: 1.59342 slow/fast: 44 17
-% return: 1.59342 slow/fast: 45 17
-% return: 1.37554 slow/fast: 46 17
-% return: 1.36214 slow/fast: 47 17
-% return: 1.36214 slow/fast: 48 17
-% return: 1.36214 slow/fast: 49 17
-% return: 1.05363 slow/fast: 50 17
-% return: 1.54414 slow/fast: 19 18
-% return: 2.157 slow/fast: 20 18
-% return: 1.05377 slow/fast: 21 18
-% return: 1.10887 slow/fast: 22 18
-% return: 1.50856 slow/fast: 23 18
-% return: 1.50527 slow/fast: 24 18
-% return: 1.40222 slow/fast: 25 18
-% return: 1.56102 slow/fast: 26 18
-% return: 1.78066 slow/fast: 27 18
-% return: 1.80275 slow/fast: 28 18
-% return: 1.74558 slow/fast: 29 18
-% return: 1.7039 slow/fast: 30 18
-% return: 1.71552 slow/fast: 31 18
-% return: 1.71552 slow/fast: 32 18
-% return: 1.62082 slow/fast: 33 18
-% return: 1.50618 slow/fast: 34 18
-% return: 1.50618 slow/fast: 35 18
-% return: 1.44472 slow/fast: 36 18
-% return: 1.56357 slow/fast: 37 18
-% return: 1.57058 slow/fast: 38 18
-% return: 2.06305 slow/fast: 39 18
-% return: 1.90771 slow/fast: 40 18
-% return: 2.01063 slow/fast: 41 18
-% return: 2.0409 slow/fast: 42 18
-% return: 1.96095 slow/fast: 43 18
-% return: 1.94242 slow/fast: 44 18
-% return: 1.7094 slow/fast: 45 18
-% return: 1.69275 slow/fast: 46 18
-% return: 1.69275 slow/fast: 47 18
-% return: 1.31482 slow/fast: 48 18
-% return: 1.29003 slow/fast: 49 18
-% return: 1.29003 slow/fast: 50 18
-% return: 1.86792 slow/fast: 20 19
-% return: 1.86586 slow/fast: 21 19
-% return: 1.11606 slow/fast: 22 19
-% return: 1.41995 slow/fast: 23 19
-% return: 1.72122 slow/fast: 24 19
-% return: 1.77024 slow/fast: 25 19
-% return: 1.4589 slow/fast: 26 19
-% return: 1.62519 slow/fast: 27 19
-% return: 1.57312 slow/fast: 28 19
-% return: 1.54423 slow/fast: 29 19
-% return: 1.51997 slow/fast: 30 19
-% return: 1.45573 slow/fast: 31 19
-% return: 1.53798 slow/fast: 32 19
-% return: 1.53798 slow/fast: 33 19
-% return: 1.42498 slow/fast: 34 19
-% return: 1.51349 slow/fast: 35 19
-% return: 1.41185 slow/fast: 36 19
-% return: 1.49478 slow/fast: 37 19
-% return: 2.04482 slow/fast: 38 19
-% return: 2.05678 slow/fast: 39 19
-% return: 2.13554 slow/fast: 40 19
-% return: 2.02371 slow/fast: 41 19
-% return: 1.91784 slow/fast: 42 19
-% return: 1.89908 slow/fast: 43 19
-% return: 1.67126 slow/fast: 44 19
-% return: 1.63974 slow/fast: 45 19
-% return: 1.55454 slow/fast: 46 19
-% return: 1.27243 slow/fast: 47 19
-% return: 1.27243 slow/fast: 48 19
-% return: 1.27243 slow/fast: 49 19
-% return: 1.27439 slow/fast: 50 19
-% return: 1.6678 slow/fast: 21 20
-% return: 0.978467 slow/fast: 22 20
-% return: 1.65668 slow/fast: 23 20
-% return: 1.37921 slow/fast: 24 20
-% return: 1.17172 slow/fast: 25 20
-% return: 1.21867 slow/fast: 26 20
-% return: 1.12892 slow/fast: 27 20
-% return: 1.32602 slow/fast: 28 20
-% return: 1.30519 slow/fast: 29 20
-% return: 1.3266 slow/fast: 30 20
-% return: 1.3266 slow/fast: 31 20
-% return: 1.22912 slow/fast: 32 20
-% return: 1.22912 slow/fast: 33 20
-% return: 1.23633 slow/fast: 34 20
-% return: 1.31312 slow/fast: 35 20
-% return: 1.22494 slow/fast: 36 20
-% return: 1.78451 slow/fast: 37 20
-% return: 1.97441 slow/fast: 38 20
-% return: 1.98352 slow/fast: 39 20
-% return: 1.64662 slow/fast: 40 20
-% return: 1.72113 slow/fast: 41 20
-% return: 1.66061 slow/fast: 42 20
-% return: 1.43311 slow/fast: 43 20
-% return: 1.43311 slow/fast: 44 20
-% return: 1.09442 slow/fast: 45 20
-% return: 1.09442 slow/fast: 46 20
-% return: 1.07233 slow/fast: 47 20
-% return: 1.07233 slow/fast: 48 20
-% return: 1.1508 slow/fast: 49 20
-% return: 1.1508 slow/fast: 50 20
-% return: 1.12698 slow/fast: 22 21
-% return: 1.28081 slow/fast: 23 21
-% return: 1.12444 slow/fast: 24 21
-% return: 1.21854 slow/fast: 25 21
-% return: 1.2944 slow/fast: 26 21
-% return: 1.2196 slow/fast: 27 21
-% return: 1.37137 slow/fast: 28 21
-% return: 1.82323 slow/fast: 29 21
-% return: 1.93661 slow/fast: 30 21
-% return: 1.8216 slow/fast: 31 21
-% return: 1.8216 slow/fast: 32 21
-% return: 1.3486 slow/fast: 33 21
-% return: 1.83132 slow/fast: 34 21
-% return: 1.31716 slow/fast: 35 21
-% return: 1.91209 slow/fast: 36 21
-% return: 1.91209 slow/fast: 37 21
-% return: 1.71203 slow/fast: 38 21
-% return: 1.71192 slow/fast: 39 21
-% return: 1.61358 slow/fast: 40 21
-% return: 1.63507 slow/fast: 41 21
-% return: 1.57148 slow/fast: 42 21
-% return: 1.11462 slow/fast: 43 21
-% return: 1.02516 slow/fast: 44 21
-% return: 0.949865 slow/fast: 45 21
-% return: 0.949865 slow/fast: 46 21
-% return: 1.02294 slow/fast: 47 21
-% return: 0.986503 slow/fast: 48 21
-% return: 0.986503 slow/fast: 49 21
-% return: 1.12146 slow/fast: 50 21
-% return: 1.56422 slow/fast: 23 22
-% return: 1.63718 slow/fast: 24 22
-% return: 1.40371 slow/fast: 25 22
-% return: 1.23602 slow/fast: 26 22
-% return: 1.28064 slow/fast: 27 22
-% return: 1.96747 slow/fast: 28 22
-% return: 2.08279 slow/fast: 29 22
-% return: 1.78331 slow/fast: 30 22
-% return: 1.79391 slow/fast: 31 22
-% return: 1.79396 slow/fast: 32 22
-% return: 1.77542 slow/fast: 33 22
-% return: 1.94912 slow/fast: 34 22
-% return: 2.05552 slow/fast: 35 22
-% return: 1.96145 slow/fast: 36 22
-% return: 2.02954 slow/fast: 37 22
-% return: 1.80199 slow/fast: 38 22
-% return: 1.80182 slow/fast: 39 22
-% return: 1.78489 slow/fast: 40 22
-% return: 1.71047 slow/fast: 41 22
-% return: 1.21575 slow/fast: 42 22
-% return: 1.21575 slow/fast: 43 22
-% return: 1.06472 slow/fast: 44 22
-% return: 1.00872 slow/fast: 45 22
-% return: 1.04599 slow/fast: 46 22
-% return: 0.772868 slow/fast: 47 22
-% return: 0.91596 slow/fast: 48 22
-% return: 0.87736 slow/fast: 49 22
-% return: 0.87736 slow/fast: 50 22
-% return: 1.45296 slow/fast: 24 23
-% return: 1.16574 slow/fast: 25 23
-% return: 1.27395 slow/fast: 26 23
-% return: 1.413 slow/fast: 27 23
-% return: 1.4255 slow/fast: 28 23
-% return: 1.30279 slow/fast: 29 23
-% return: 1.37707 slow/fast: 30 23
-% return: 1.38064 slow/fast: 31 23
-% return: 1.36405 slow/fast: 32 23
-% return: 1.46385 slow/fast: 33 23
-% return: 1.44271 slow/fast: 34 23
-% return: 1.44271 slow/fast: 35 23
-% return: 1.49279 slow/fast: 36 23
-% return: 1.49279 slow/fast: 37 23
-% return: 1.49265 slow/fast: 38 23
-% return: 1.47804 slow/fast: 39 23
-% return: 1.33908 slow/fast: 40 23
-% return: 0.999139 slow/fast: 41 23
-% return: 1.00359 slow/fast: 42 23
-% return: 0.878917 slow/fast: 43 23
-% return: 0.623269 slow/fast: 44 23
-% return: 0.543244 slow/fast: 45 23
-% return: 0.586221 slow/fast: 46 23
-% return: 0.694756 slow/fast: 47 23
-% return: 0.665717 slow/fast: 48 23
-% return: 0.665717 slow/fast: 49 23
-% return: 0.594039 slow/fast: 50 23
-% return: 1.41728 slow/fast: 25 24
-% return: 1.87853 slow/fast: 26 24
-% return: 1.39155 slow/fast: 27 24
-% return: 1.36984 slow/fast: 28 24
-% return: 1.38712 slow/fast: 29 24
-% return: 1.45264 slow/fast: 30 24
-% return: 1.41289 slow/fast: 31 24
-% return: 1.34124 slow/fast: 32 24
-% return: 1.49004 slow/fast: 33 24
-% return: 1.49004 slow/fast: 34 24
-% return: 1.51533 slow/fast: 35 24
-% return: 1.5005 slow/fast: 36 24
-% return: 1.52193 slow/fast: 37 24
-% return: 1.50704 slow/fast: 38 24
-% return: 1.50765 slow/fast: 39 24
-% return: 1.48748 slow/fast: 40 24
-% return: 1.12492 slow/fast: 41 24
-% return: 1.05073 slow/fast: 42 24
-% return: 0.744815 slow/fast: 43 24
-% return: 0.648388 slow/fast: 44 24
-% return: 0.726655 slow/fast: 45 24
-% return: 0.784141 slow/fast: 46 24
-% return: 0.784141 slow/fast: 47 24
-% return: 0.668822 slow/fast: 48 24
-% return: 0.573117 slow/fast: 49 24
-% return: 0.548927 slow/fast: 50 24
-% return: 1.42981 slow/fast: 26 25
-% return: 1.51472 slow/fast: 27 25
-% return: 1.22748 slow/fast: 28 25
-% return: 1.039 slow/fast: 29 25
-% return: 1.06268 slow/fast: 30 25
-% return: 1.41411 slow/fast: 31 25
-% return: 1.21364 slow/fast: 32 25
-% return: 1.18622 slow/fast: 33 25
-% return: 1.19693 slow/fast: 34 25
-% return: 1.19693 slow/fast: 35 25
-% return: 1.41145 slow/fast: 36 25
-% return: 1.41145 slow/fast: 37 25
-% return: 1.39315 slow/fast: 38 25
-% return: 1.39315 slow/fast: 39 25
-% return: 1.05033 slow/fast: 40 25
-% return: 0.77564 slow/fast: 41 25
-% return: 0.815255 slow/fast: 42 25
-% return: 0.78269 slow/fast: 43 25
-% return: 0.807509 slow/fast: 44 25
-% return: 0.539595 slow/fast: 45 25
-% return: 0.593197 slow/fast: 46 25
-% return: 0.508454 slow/fast: 47 25
-% return: 0.480787 slow/fast: 48 25
-% return: 0.395068 slow/fast: 49 25
-% return: 0.460453 slow/fast: 50 25
-% return: 1.3875 slow/fast: 27 26
-% return: 1.66956 slow/fast: 28 26
-% return: 1.15806 slow/fast: 29 26
-% return: 0.764753 slow/fast: 30 26
-% return: 0.884612 slow/fast: 31 26
-% return: 0.884612 slow/fast: 32 26
-% return: 0.903463 slow/fast: 33 26
-% return: 0.883183 slow/fast: 34 26
-% return: 1.16239 slow/fast: 35 26
-% return: 1.11691 slow/fast: 36 26
-% return: 1.11739 slow/fast: 37 26
-% return: 1.37238 slow/fast: 38 26
-% return: 1.03466 slow/fast: 39 26
-% return: 0.764073 slow/fast: 40 26
-% return: 0.801397 slow/fast: 41 26
-% return: 0.803097 slow/fast: 42 26
-% return: 0.569834 slow/fast: 43 26
-% return: 0.522277 slow/fast: 44 26
-% return: 0.466482 slow/fast: 45 26
-% return: 0.452523 slow/fast: 46 26
-% return: 0.4279 slow/fast: 47 26
-% return: 0.550738 slow/fast: 48 26
-% return: 0.459279 slow/fast: 49 26
-% return: 0.459279 slow/fast: 50 26
-% return: 1.221 slow/fast: 28 27
-% return: 1.90799 slow/fast: 29 27
-% return: 0.699471 slow/fast: 30 27
-% return: 0.590712 slow/fast: 31 27
-% return: 0.831168 slow/fast: 32 27
-% return: 0.83393 slow/fast: 33 27
-% return: 0.819529 slow/fast: 34 27
-% return: 1.04788 slow/fast: 35 27
-% return: 1.04832 slow/fast: 36 27
-% return: 0.774727 slow/fast: 37 27
-% return: 0.715729 slow/fast: 38 27
-% return: 0.73966 slow/fast: 39 27
-% return: 0.720992 slow/fast: 40 27
-% return: 0.722521 slow/fast: 41 27
-% return: 0.622941 slow/fast: 42 27
-% return: 0.556368 slow/fast: 43 27
-% return: 0.469876 slow/fast: 44 27
-% return: 0.385536 slow/fast: 45 27
-% return: 0.430161 slow/fast: 46 27
-% return: 0.547087 slow/fast: 47 27
-% return: 0.547087 slow/fast: 48 27
-% return: 0.452446 slow/fast: 49 27
-% return: 0.429121 slow/fast: 50 27
-% return: 0.908424 slow/fast: 29 28
-% return: 0.434674 slow/fast: 30 28
-% return: 0.481291 slow/fast: 31 28
-% return: 0.674899 slow/fast: 32 28
-% return: 0.666705 slow/fast: 33 28
-% return: 0.607928 slow/fast: 34 28
-% return: 0.617413 slow/fast: 35 28
-% return: 0.884283 slow/fast: 36 28
-% return: 0.764063 slow/fast: 37 28
-% return: 0.735186 slow/fast: 38 28
-% return: 0.769468 slow/fast: 39 28
-% return: 0.694075 slow/fast: 40 28
-% return: 0.674749 slow/fast: 41 28
-% return: 0.674749 slow/fast: 42 28
-% return: 0.508954 slow/fast: 43 28
-% return: 0.458698 slow/fast: 44 28
-% return: 0.370869 slow/fast: 45 28
-% return: 0.370869 slow/fast: 46 28
-% return: 0.562873 slow/fast: 47 28
-% return: 0.504029 slow/fast: 48 28
-% return: 0.416837 slow/fast: 49 28
-% return: 0.257688 slow/fast: 50 28
-% return: 0.315543 slow/fast: 30 29
-% return: 0.299375 slow/fast: 31 29
-% return: 0.376296 slow/fast: 32 29
-% return: 0.671634 slow/fast: 33 29
-% return: 0.651772 slow/fast: 34 29
-% return: 0.65325 slow/fast: 35 29
-% return: 0.715587 slow/fast: 36 29
-% return: 0.824179 slow/fast: 37 29
-% return: 0.802275 slow/fast: 38 29
-% return: 0.825486 slow/fast: 39 29
-% return: 0.734006 slow/fast: 40 29
-% return: 0.682286 slow/fast: 41 29
-% return: 0.716125 slow/fast: 42 29
-% return: 0.463822 slow/fast: 43 29
-% return: 0.395184 slow/fast: 44 29
-% return: 0.367456 slow/fast: 45 29
-% return: 0.534536 slow/fast: 46 29
-% return: 0.557693 slow/fast: 47 29
-% return: 0.509659 slow/fast: 48 29
-% return: 0.442695 slow/fast: 49 29
-% return: 0.359061 slow/fast: 50 29
-% return: 0.685036 slow/fast: 31 30
-% return: 0.691251 slow/fast: 32 30
-% return: 0.725596 slow/fast: 33 30
-% return: 0.612876 slow/fast: 34 30
-% return: 0.730776 slow/fast: 35 30
-% return: 0.706035 slow/fast: 36 30
-% return: 0.919996 slow/fast: 37 30
-% return: 0.840531 slow/fast: 38 30
-% return: 0.942644 slow/fast: 39 30
-% return: 0.774981 slow/fast: 40 30
-% return: 0.758915 slow/fast: 41 30
-% return: 0.701224 slow/fast: 42 30
-% return: 0.468573 slow/fast: 43 30
-% return: 0.407441 slow/fast: 44 30
-% return: 0.44703 slow/fast: 45 30
-% return: 0.663785 slow/fast: 46 30
-% return: 0.638714 slow/fast: 47 30
-% return: 0.638714 slow/fast: 48 30
-% return: 0.681374 slow/fast: 49 30
-% return: 0.66853 slow/fast: 50 30
-% return: 0.434962 slow/fast: 32 31
-% return: 0.769016 slow/fast: 33 31
-% return: 0.858196 slow/fast: 34 31
-% return: 1.17522 slow/fast: 35 31
-% return: 1.43109 slow/fast: 36 31
-% return: 1.60262 slow/fast: 37 31
-% return: 1.43257 slow/fast: 38 31
-% return: 1.26914 slow/fast: 39 31
-% return: 0.854904 slow/fast: 40 31
-% return: 0.786283 slow/fast: 41 31
-% return: 0.867527 slow/fast: 42 31
-% return: 0.540608 slow/fast: 43 31
-% return: 0.540608 slow/fast: 44 31
-% return: 0.769405 slow/fast: 45 31
-% return: 0.802737 slow/fast: 46 31
-% return: 0.735424 slow/fast: 47 31
-% return: 0.875092 slow/fast: 48 31
-% return: 0.709268 slow/fast: 49 31
-% return: 0.695626 slow/fast: 50 31
-% return: 1.1433 slow/fast: 33 32
-% return: 1.20345 slow/fast: 34 32
-% return: 1.45873 slow/fast: 35 32
-% return: 1.23963 slow/fast: 36 32
-% return: 1.49257 slow/fast: 37 32
-% return: 1.41013 slow/fast: 38 32
-% return: 1.3078 slow/fast: 39 32
-% return: 0.857548 slow/fast: 40 32
-% return: 0.781394 slow/fast: 41 32
-% return: 0.872241 slow/fast: 42 32
-% return: 0.763935 slow/fast: 43 32
-% return: 0.69595 slow/fast: 44 32
-% return: 0.69595 slow/fast: 45 32
-% return: 0.636011 slow/fast: 46 32
-% return: 0.664638 slow/fast: 47 32
-% return: 0.71324 slow/fast: 48 32
-% return: 0.699522 slow/fast: 49 32
-% return: 0.41925 slow/fast: 50 32
-% return: 1.2481 slow/fast: 34 33
-% return: 1.11812 slow/fast: 35 33
-% return: 1.40852 slow/fast: 36 33
-% return: 1.21617 slow/fast: 37 33
-% return: 1.69269 slow/fast: 38 33
-% return: 1.09918 slow/fast: 39 33
-% return: 0.766505 slow/fast: 40 33
-% return: 0.700406 slow/fast: 41 33
-% return: 0.644145 slow/fast: 42 33
-% return: 0.68798 slow/fast: 43 33
-% return: 0.469469 slow/fast: 44 33
-% return: 0.593706 slow/fast: 45 33
-% return: 0.631736 slow/fast: 46 33
-% return: 0.676886 slow/fast: 47 33
-% return: 0.676886 slow/fast: 48 33
-% return: 0.4108 slow/fast: 49 33
-% return: 0.409148 slow/fast: 50 33
-% return: 1.85383 slow/fast: 35 34
-% return: 1.33907 slow/fast: 36 34
-% return: 1.2829 slow/fast: 37 34
-% return: 1.41324 slow/fast: 38 34
-% return: 1.37666 slow/fast: 39 34
-% return: 1.0286 slow/fast: 40 34
-% return: 0.966608 slow/fast: 41 34
-% return: 0.637307 slow/fast: 42 34
-% return: 0.560625 slow/fast: 43 34
-% return: 0.488484 slow/fast: 44 34
-% return: 0.514021 slow/fast: 45 34
-% return: 0.497836 slow/fast: 46 34
-% return: 0.669583 slow/fast: 47 34
-% return: 0.409347 slow/fast: 48 34
-% return: 0.409347 slow/fast: 49 34
-% return: 0.39484 slow/fast: 50 34
-% return: 1.18955 slow/fast: 36 35
-% return: 1.07323 slow/fast: 37 35
-% return: 1.33519 slow/fast: 38 35
-% return: 1.13701 slow/fast: 39 35
-% return: 0.913778 slow/fast: 40 35
-% return: 0.959856 slow/fast: 41 35
-% return: 0.810769 slow/fast: 42 35
-% return: 0.49614 slow/fast: 43 35
-% return: 0.471643 slow/fast: 44 35
-% return: 0.480254 slow/fast: 45 35
-% return: 0.489203 slow/fast: 46 35
-% return: 0.389528 slow/fast: 47 35
-% return: 0.382457 slow/fast: 48 35
-% return: 0.380929 slow/fast: 49 35
-% return: 0.322287 slow/fast: 50 35
-% return: 1.02693 slow/fast: 37 36
-% return: 1.1553 slow/fast: 38 36
-% return: 0.865899 slow/fast: 39 36
-% return: 1.02495 slow/fast: 40 36
-% return: 1.02872 slow/fast: 41 36
-% return: 0.622197 slow/fast: 42 36
-% return: 0.678569 slow/fast: 43 36
-% return: 0.438477 slow/fast: 44 36
-% return: 0.572686 slow/fast: 45 36
-% return: 0.346042 slow/fast: 46 36
-% return: 0.411742 slow/fast: 47 36
-% return: 0.326617 slow/fast: 48 36
-% return: 0.325251 slow/fast: 49 36
-% return: 0.368618 slow/fast: 50 36
-% return: 1.34127 slow/fast: 38 37
-% return: 0.745736 slow/fast: 39 37
-% return: 1.0704 slow/fast: 40 37
-% return: 0.994912 slow/fast: 41 37
-% return: 0.779771 slow/fast: 42 37
-% return: 0.640746 slow/fast: 43 37
-% return: 0.607978 slow/fast: 44 37
-% return: 0.349238 slow/fast: 45 37
-% return: 0.315709 slow/fast: 46 37
-% return: 0.246558 slow/fast: 47 37
-% return: 0.231172 slow/fast: 48 37
-% return: 0.230205 slow/fast: 49 37
-% return: 0.578075 slow/fast: 50 37
-% return: 0.722479 slow/fast: 39 38
-% return: 0.856569 slow/fast: 40 38
-% return: 0.785064 slow/fast: 41 38
-% return: 0.672446 slow/fast: 42 38
-% return: 0.6548 slow/fast: 43 38
-% return: 0.642627 slow/fast: 44 38
-% return: 0.392033 slow/fast: 45 38
-% return: 0.201745 slow/fast: 46 38
-% return: 0.246086 slow/fast: 47 38
-% return: 0.241367 slow/fast: 48 38
-% return: 0.532662 slow/fast: 49 38
-% return: 0.544982 slow/fast: 50 38
-% return: 0.833695 slow/fast: 40 39
-% return: 0.796055 slow/fast: 41 39
-% return: 0.578355 slow/fast: 42 39
-% return: 0.357918 slow/fast: 43 39
-% return: 0.327954 slow/fast: 44 39
-% return: 0.28945 slow/fast: 45 39
-% return: 0.222269 slow/fast: 46 39
-% return: 0.264167 slow/fast: 47 39
-% return: 0.539891 slow/fast: 48 39
-% return: 0.478488 slow/fast: 49 39
-% return: 0.644327 slow/fast: 50 39
-% return: 0.45928 slow/fast: 41 40
-% return: 0.486471 slow/fast: 42 40
-% return: 0.471897 slow/fast: 43 40
-% return: 0.255091 slow/fast: 44 40
-% return: 0.200346 slow/fast: 45 40
-% return: 0.19624 slow/fast: 46 40
-% return: 0.479294 slow/fast: 47 40
-% return: 0.448766 slow/fast: 48 40
-% return: 0.523098 slow/fast: 49 40
-% return: 0.601466 slow/fast: 50 40
-% return: 0.458927 slow/fast: 42 41
-% return: 0.419033 slow/fast: 43 41
-% return: 0.412071 slow/fast: 44 41
-% return: 0.415869 slow/fast: 45 41
-% return: 0.412812 slow/fast: 46 41
-% return: 0.455045 slow/fast: 47 41
-% return: 0.549108 slow/fast: 48 41
-% return: 0.494406 slow/fast: 49 41
-% return: 0.56019 slow/fast: 50 41
-% return: 0.697917 slow/fast: 43 42
-% return: 0.637919 slow/fast: 44 42
-% return: 0.511527 slow/fast: 45 42
-% return: 0.520416 slow/fast: 46 42
-% return: 0.59088 slow/fast: 47 42
-% return: 0.608828 slow/fast: 48 42
-% return: 0.680272 slow/fast: 49 42
-% return: 0.649157 slow/fast: 50 42
-% return: 0.709462 slow/fast: 44 43
-% return: 0.641067 slow/fast: 45 43
-% return: 0.778991 slow/fast: 46 43
-% return: 0.763024 slow/fast: 47 43
-% return: 0.605814 slow/fast: 48 43
-% return: 0.705732 slow/fast: 49 43
-% return: 0.562515 slow/fast: 50 43
-% return: 0.914436 slow/fast: 45 44
-% return: 0.896602 slow/fast: 46 44
-% return: 0.806163 slow/fast: 47 44
-% return: 0.625555 slow/fast: 48 44
-% return: 1.17556 slow/fast: 49 44
-% return: 1.40365 slow/fast: 50 44
-% return: 1.48115 slow/fast: 46 45
-% return: 1.22293 slow/fast: 47 45
-% return: 1.01291 slow/fast: 48 45
-% return: 1.36962 slow/fast: 49 45
-% return: 1.33732 slow/fast: 50 45
-% return: 0.734314 slow/fast: 47 46
-% return: 0.968962 slow/fast: 48 46
-% return: 1.13301 slow/fast: 49 46
-% return: 1.00691 slow/fast: 50 46
-% return: 1.7582 slow/fast: 48 47
-% return: 0.928239 slow/fast: 49 47
-% return: 1.09704 slow/fast: 50 47
-% return: 1.0111 slow/fast: 49 48
-% return: 1.01482 slow/fast: 50 48
-% return: 1.61506 slow/fast: 50 49
+2024-03-02 06:24:37
+Return 2.728511 num trades: 133 Longs: 67 Shorts: 66 win %: 39.097744%
+Return 2.932939 num trades: 97 Longs: 49 Shorts: 48 win %: 43.298969%
+Return 7.062647 num trades: 67 Longs: 34 Shorts: 33 win %: 44.776119%
+Return 13.185115 num trades: 55 Longs: 28 Shorts: 27 win %: 50.909091%
+Return 2.703578 num trades: 53 Longs: 27 Shorts: 26 win %: 41.509434%
+Return 4.896625 num trades: 57 Longs: 29 Shorts: 28 win %: 38.596491%
+Return 2.141426 num trades: 49 Longs: 25 Shorts: 24 win %: 38.775510%
+Return 2.262876 num trades: 45 Longs: 23 Shorts: 22 win %: 35.555556%
+Return 1.929171 num trades: 43 Longs: 22 Shorts: 21 win %: 34.883721%
+Return 1.090670 num trades: 45 Longs: 23 Shorts: 22 win %: 26.666667%
+Return 1.282225 num trades: 41 Longs: 21 Shorts: 20 win %: 24.390244%
+Return 1.656796 num trades: 35 Longs: 18 Shorts: 17 win %: 25.714286%
+Return 2.067338 num trades: 31 Longs: 16 Shorts: 15 win %: 22.580645%
+Return 2.406780 num trades: 27 Longs: 14 Shorts: 13 win %: 29.629630%
+Return 2.563237 num trades: 27 Longs: 14 Shorts: 13 win %: 29.629630%
+Return 2.779223 num trades: 25 Longs: 13 Shorts: 12 win %: 28.000000%
+Return 2.714219 num trades: 21 Longs: 11 Shorts: 10 win %: 28.571429%
+Return 2.957156 num trades: 21 Longs: 11 Shorts: 10 win %: 28.571429%
+Return 2.957156 num trades: 21 Longs: 11 Shorts: 10 win %: 28.571429%
+Return 2.868866 num trades: 21 Longs: 11 Shorts: 10 win %: 28.571429%
+Return 2.868866 num trades: 21 Longs: 11 Shorts: 10 win %: 28.571429%
+Return 3.148096 num trades: 21 Longs: 11 Shorts: 10 win %: 33.333333%
+Return 3.254163 num trades: 19 Longs: 10 Shorts: 9 win %: 31.578947%
+Return 3.158135 num trades: 19 Longs: 10 Shorts: 9 win %: 26.315789%
+Return 3.540798 num trades: 19 Longs: 10 Shorts: 9 win %: 31.578947%
+Return 4.252812 num trades: 13 Longs: 7 Shorts: 6 win %: 38.461538%
+Return 3.900591 num trades: 13 Longs: 7 Shorts: 6 win %: 38.461538%
+Return 3.900591 num trades: 13 Longs: 7 Shorts: 6 win %: 38.461538%
+Return 3.109309 num trades: 13 Longs: 7 Shorts: 6 win %: 38.461538%
+Return 3.109309 num trades: 13 Longs: 7 Shorts: 6 win %: 38.461538%
+Return 3.109309 num trades: 13 Longs: 7 Shorts: 6 win %: 38.461538%
+Return 3.108623 num trades: 13 Longs: 7 Shorts: 6 win %: 38.461538%
+Return 2.905448 num trades: 15 Longs: 8 Shorts: 7 win %: 26.666667%
+Return 2.905448 num trades: 15 Longs: 8 Shorts: 7 win %: 26.666667%
+Return 2.700419 num trades: 19 Longs: 10 Shorts: 9 win %: 26.315789%
+Return 2.701531 num trades: 19 Longs: 10 Shorts: 9 win %: 26.315789%
+Return 2.512675 num trades: 19 Longs: 10 Shorts: 9 win %: 21.052632%
+Return 2.596947 num trades: 19 Longs: 10 Shorts: 9 win %: 21.052632%
+Return 1.725547 num trades: 17 Longs: 9 Shorts: 8 win %: 17.647059%
+Return 1.832617 num trades: 15 Longs: 8 Shorts: 7 win %: 20.000000%
+Return 1.832617 num trades: 15 Longs: 8 Shorts: 7 win %: 20.000000%
+Return 1.765999 num trades: 17 Longs: 9 Shorts: 8 win %: 17.647059%
+Return 1.684117 num trades: 17 Longs: 9 Shorts: 8 win %: 17.647059%
+Return 1.684117 num trades: 17 Longs: 9 Shorts: 8 win %: 17.647059%
+Return 1.637045 num trades: 19 Longs: 10 Shorts: 9 win %: 21.052632%
+Return 1.464747 num trades: 21 Longs: 11 Shorts: 10 win %: 19.047619%
+Return 1.464747 num trades: 21 Longs: 11 Shorts: 10 win %: 19.047619%
+Return 1.606826 num trades: 17 Longs: 9 Shorts: 8 win %: 17.647059%
+Return 0.987099 num trades: 17 Longs: 9 Shorts: 8 win %: 17.647059%
+Return 3.274482 num trades: 103 Longs: 52 Shorts: 51 win %: 40.776699%
+Return 4.229881 num trades: 67 Longs: 34 Shorts: 33 win %: 35.820896%
+Return 5.490027 num trades: 53 Longs: 27 Shorts: 26 win %: 43.396226%
+Return 2.483451 num trades: 45 Longs: 23 Shorts: 22 win %: 42.222222%
+Return 1.556027 num trades: 43 Longs: 22 Shorts: 21 win %: 44.186047%
+Return 2.471292 num trades: 39 Longs: 20 Shorts: 19 win %: 41.025641%
+Return 1.261724 num trades: 33 Longs: 17 Shorts: 16 win %: 42.424242%
+Return 1.318386 num trades: 37 Longs: 19 Shorts: 18 win %: 35.135135%
+Return 2.432402 num trades: 31 Longs: 16 Shorts: 15 win %: 35.483871%
+Return 1.751346 num trades: 33 Longs: 17 Shorts: 16 win %: 30.303030%
+Return 1.704899 num trades: 29 Longs: 15 Shorts: 14 win %: 27.586207%
+Return 2.145798 num trades: 23 Longs: 12 Shorts: 11 win %: 26.086957%
+Return 2.282537 num trades: 23 Longs: 12 Shorts: 11 win %: 30.434783%
+Return 2.519638 num trades: 21 Longs: 11 Shorts: 10 win %: 28.571429%
+Return 3.197238 num trades: 19 Longs: 10 Shorts: 9 win %: 31.578947%
+Return 3.114098 num trades: 19 Longs: 10 Shorts: 9 win %: 31.578947%
+Return 2.836859 num trades: 17 Longs: 9 Shorts: 8 win %: 29.411765%
+Return 2.847677 num trades: 17 Longs: 9 Shorts: 8 win %: 35.294118%
+Return 2.515187 num trades: 19 Longs: 10 Shorts: 9 win %: 26.315789%
+Return 2.515187 num trades: 19 Longs: 10 Shorts: 9 win %: 26.315789%
+Return 2.505116 num trades: 19 Longs: 10 Shorts: 9 win %: 21.052632%
+Return 2.384416 num trades: 17 Longs: 9 Shorts: 8 win %: 23.529412%
+Return 2.384416 num trades: 17 Longs: 9 Shorts: 8 win %: 23.529412%
+Return 2.431024 num trades: 15 Longs: 8 Shorts: 7 win %: 26.666667%
+Return 3.086141 num trades: 11 Longs: 6 Shorts: 5 win %: 36.363636%
+Return 3.086141 num trades: 11 Longs: 6 Shorts: 5 win %: 36.363636%
+Return 3.086141 num trades: 11 Longs: 6 Shorts: 5 win %: 36.363636%
+Return 2.790743 num trades: 11 Longs: 6 Shorts: 5 win %: 36.363636%
+Return 2.790743 num trades: 11 Longs: 6 Shorts: 5 win %: 36.363636%
+Return 2.790743 num trades: 11 Longs: 6 Shorts: 5 win %: 36.363636%
+Return 2.849184 num trades: 11 Longs: 6 Shorts: 5 win %: 36.363636%
+Return 2.744978 num trades: 11 Longs: 6 Shorts: 5 win %: 27.272727%
+Return 2.701042 num trades: 13 Longs: 7 Shorts: 6 win %: 23.076923%
+Return 2.168286 num trades: 11 Longs: 6 Shorts: 5 win %: 18.181818%
+Return 2.317107 num trades: 13 Longs: 7 Shorts: 6 win %: 23.076923%
+Return 1.885928 num trades: 15 Longs: 8 Shorts: 7 win %: 13.333333%
+Return 1.638744 num trades: 13 Longs: 7 Shorts: 6 win %: 15.384615%
+Return 1.638744 num trades: 13 Longs: 7 Shorts: 6 win %: 15.384615%
+Return 1.638744 num trades: 13 Longs: 7 Shorts: 6 win %: 15.384615%
+Return 1.561426 num trades: 13 Longs: 7 Shorts: 6 win %: 15.384615%
+Return 1.635650 num trades: 13 Longs: 7 Shorts: 6 win %: 15.384615%
+Return 1.693055 num trades: 13 Longs: 7 Shorts: 6 win %: 23.076923%
+Return 1.022223 num trades: 13 Longs: 7 Shorts: 6 win %: 23.076923%
+Return 1.022223 num trades: 13 Longs: 7 Shorts: 6 win %: 23.076923%
+Return 1.077194 num trades: 13 Longs: 7 Shorts: 6 win %: 23.076923%
+Return 0.949091 num trades: 11 Longs: 6 Shorts: 5 win %: 18.181818%
+Return 0.949091 num trades: 11 Longs: 6 Shorts: 5 win %: 18.181818%
+Return 0.880402 num trades: 15 Longs: 8 Shorts: 7 win %: 13.333333%
+Return 5.711214 num trades: 77 Longs: 39 Shorts: 38 win %: 44.155844%
+Return 3.525397 num trades: 49 Longs: 25 Shorts: 24 win %: 44.897959%
+Return 5.487640 num trades: 43 Longs: 22 Shorts: 21 win %: 41.860465%
+Return 1.808013 num trades: 41 Longs: 21 Shorts: 20 win %: 39.024390%
+Return 2.184875 num trades: 35 Longs: 18 Shorts: 17 win %: 42.857143%
+Return 2.944732 num trades: 29 Longs: 15 Shorts: 14 win %: 44.827586%
+Return 2.544366 num trades: 29 Longs: 15 Shorts: 14 win %: 41.379310%
+Return 2.535878 num trades: 27 Longs: 14 Shorts: 13 win %: 37.037037%
+Return 2.031944 num trades: 25 Longs: 13 Shorts: 12 win %: 40.000000%
+Return 2.185157 num trades: 23 Longs: 12 Shorts: 11 win %: 34.782609%
+Return 2.204257 num trades: 21 Longs: 11 Shorts: 10 win %: 33.333333%
+Return 2.564178 num trades: 19 Longs: 10 Shorts: 9 win %: 42.105263%
+Return 2.750393 num trades: 17 Longs: 9 Shorts: 8 win %: 35.294118%
+Return 2.641087 num trades: 17 Longs: 9 Shorts: 8 win %: 35.294118%
+Return 2.853605 num trades: 17 Longs: 9 Shorts: 8 win %: 35.294118%
+Return 2.388696 num trades: 15 Longs: 8 Shorts: 7 win %: 33.333333%
+Return 2.483824 num trades: 15 Longs: 8 Shorts: 7 win %: 33.333333%
+Return 2.516441 num trades: 15 Longs: 8 Shorts: 7 win %: 33.333333%
+Return 2.484233 num trades: 15 Longs: 8 Shorts: 7 win %: 33.333333%
+Return 2.477955 num trades: 15 Longs: 8 Shorts: 7 win %: 33.333333%
+Return 2.477955 num trades: 15 Longs: 8 Shorts: 7 win %: 33.333333%
+Return 2.364614 num trades: 15 Longs: 8 Shorts: 7 win %: 33.333333%
+Return 2.184698 num trades: 15 Longs: 8 Shorts: 7 win %: 33.333333%
+Return 2.612822 num trades: 11 Longs: 6 Shorts: 5 win %: 45.454545%
+Return 2.482555 num trades: 11 Longs: 6 Shorts: 5 win %: 36.363636%
+Return 2.857932 num trades: 11 Longs: 6 Shorts: 5 win %: 36.363636%
+Return 2.925591 num trades: 11 Longs: 6 Shorts: 5 win %: 36.363636%
+Return 4.160351 num trades: 11 Longs: 6 Shorts: 5 win %: 36.363636%
+Return 4.160351 num trades: 11 Longs: 6 Shorts: 5 win %: 36.363636%
+Return 2.845518 num trades: 9 Longs: 5 Shorts: 4 win %: 33.333333%
+Return 2.845518 num trades: 9 Longs: 5 Shorts: 4 win %: 33.333333%
+Return 2.888988 num trades: 9 Longs: 5 Shorts: 4 win %: 33.333333%
+Return 2.954731 num trades: 9 Longs: 5 Shorts: 4 win %: 44.444444%
+Return 2.989959 num trades: 9 Longs: 5 Shorts: 4 win %: 44.444444%
+Return 2.630663 num trades: 13 Longs: 7 Shorts: 6 win %: 30.769231%
+Return 2.574278 num trades: 11 Longs: 6 Shorts: 5 win %: 27.272727%
+Return 2.251872 num trades: 11 Longs: 6 Shorts: 5 win %: 27.272727%
+Return 2.154669 num trades: 11 Longs: 6 Shorts: 5 win %: 27.272727%
+Return 2.249761 num trades: 11 Longs: 6 Shorts: 5 win %: 27.272727%
+Return 1.359718 num trades: 11 Longs: 6 Shorts: 5 win %: 27.272727%
+Return 1.307714 num trades: 11 Longs: 6 Shorts: 5 win %: 27.272727%
+Return 1.379335 num trades: 11 Longs: 6 Shorts: 5 win %: 27.272727%
+Return 1.379335 num trades: 11 Longs: 6 Shorts: 5 win %: 27.272727%
+Return 1.499522 num trades: 9 Longs: 5 Shorts: 4 win %: 33.333333%
+Return 1.499522 num trades: 9 Longs: 5 Shorts: 4 win %: 33.333333%
+Return 1.499522 num trades: 9 Longs: 5 Shorts: 4 win %: 33.333333%
+Return 1.324052 num trades: 9 Longs: 5 Shorts: 4 win %: 33.333333%
+Return 3.278870 num trades: 65 Longs: 33 Shorts: 32 win %: 44.615385%
+Return 3.539459 num trades: 47 Longs: 24 Shorts: 23 win %: 40.425532%
+Return 0.899887 num trades: 39 Longs: 20 Shorts: 19 win %: 28.205128%
+Return 0.894538 num trades: 35 Longs: 18 Shorts: 17 win %: 31.428571%
+Return 0.885768 num trades: 29 Longs: 15 Shorts: 14 win %: 31.034483%
+Return 1.456565 num trades: 27 Longs: 14 Shorts: 13 win %: 37.037037%
+Return 1.249151 num trades: 25 Longs: 13 Shorts: 12 win %: 36.000000%
+Return 1.566690 num trades: 25 Longs: 13 Shorts: 12 win %: 40.000000%
+Return 2.486654 num trades: 23 Longs: 12 Shorts: 11 win %: 47.826087%
+Return 2.206093 num trades: 19 Longs: 10 Shorts: 9 win %: 47.368421%
+Return 1.930340 num trades: 17 Longs: 9 Shorts: 8 win %: 41.176471%
+Return 2.158003 num trades: 17 Longs: 9 Shorts: 8 win %: 41.176471%
+Return 2.416141 num trades: 15 Longs: 8 Shorts: 7 win %: 33.333333%
+Return 1.746893 num trades: 15 Longs: 8 Shorts: 7 win %: 26.666667%
+Return 1.895269 num trades: 15 Longs: 8 Shorts: 7 win %: 26.666667%
+Return 1.800211 num trades: 15 Longs: 8 Shorts: 7 win %: 20.000000%
+Return 1.630637 num trades: 15 Longs: 8 Shorts: 7 win %: 20.000000%
+Return 2.825689 num trades: 17 Longs: 9 Shorts: 8 win %: 17.647059%
+Return 3.148005 num trades: 15 Longs: 8 Shorts: 7 win %: 20.000000%
+Return 3.278898 num trades: 13 Longs: 7 Shorts: 6 win %: 23.076923%
+Return 2.878613 num trades: 13 Longs: 7 Shorts: 6 win %: 23.076923%
+Return 3.214492 num trades: 13 Longs: 7 Shorts: 6 win %: 30.769231%
+Return 3.072013 num trades: 11 Longs: 6 Shorts: 5 win %: 27.272727%
+Return 3.080237 num trades: 11 Longs: 6 Shorts: 5 win %: 27.272727%
+Return 3.224208 num trades: 11 Longs: 6 Shorts: 5 win %: 27.272727%
+Return 2.406209 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 2.406209 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 2.393783 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 2.393783 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 2.393783 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 2.422322 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 2.198683 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 2.158084 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 2.108526 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.707912 num trades: 11 Longs: 6 Shorts: 5 win %: 18.181818%
+Return 1.643409 num trades: 11 Longs: 6 Shorts: 5 win %: 18.181818%
+Return 1.635445 num trades: 11 Longs: 6 Shorts: 5 win %: 18.181818%
+Return 1.466691 num trades: 11 Longs: 6 Shorts: 5 win %: 18.181818%
+Return 0.821953 num trades: 11 Longs: 6 Shorts: 5 win %: 18.181818%
+Return 0.867074 num trades: 11 Longs: 6 Shorts: 5 win %: 18.181818%
+Return 0.867074 num trades: 11 Longs: 6 Shorts: 5 win %: 18.181818%
+Return 0.802262 num trades: 11 Longs: 6 Shorts: 5 win %: 18.181818%
+Return 0.828931 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 0.828931 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 0.828931 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 0.828931 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 3.273508 num trades: 55 Longs: 28 Shorts: 27 win %: 40.000000%
+Return 1.678377 num trades: 39 Longs: 20 Shorts: 19 win %: 33.333333%
+Return 0.793303 num trades: 33 Longs: 17 Shorts: 16 win %: 36.363636%
+Return 1.020777 num trades: 29 Longs: 15 Shorts: 14 win %: 34.482759%
+Return 1.058673 num trades: 27 Longs: 14 Shorts: 13 win %: 33.333333%
+Return 1.227714 num trades: 27 Longs: 14 Shorts: 13 win %: 37.037037%
+Return 1.376974 num trades: 23 Longs: 12 Shorts: 11 win %: 34.782609%
+Return 1.940134 num trades: 25 Longs: 13 Shorts: 12 win %: 36.000000%
+Return 2.147163 num trades: 17 Longs: 9 Shorts: 8 win %: 29.411765%
+Return 2.160179 num trades: 17 Longs: 9 Shorts: 8 win %: 29.411765%
+Return 2.177104 num trades: 17 Longs: 9 Shorts: 8 win %: 29.411765%
+Return 2.582182 num trades: 17 Longs: 9 Shorts: 8 win %: 41.176471%
+Return 3.057073 num trades: 15 Longs: 8 Shorts: 7 win %: 33.333333%
+Return 3.216583 num trades: 11 Longs: 6 Shorts: 5 win %: 36.363636%
+Return 2.890377 num trades: 11 Longs: 6 Shorts: 5 win %: 36.363636%
+Return 2.672445 num trades: 15 Longs: 8 Shorts: 7 win %: 26.666667%
+Return 2.621302 num trades: 13 Longs: 7 Shorts: 6 win %: 23.076923%
+Return 2.684500 num trades: 15 Longs: 8 Shorts: 7 win %: 33.333333%
+Return 2.107997 num trades: 15 Longs: 8 Shorts: 7 win %: 33.333333%
+Return 2.310678 num trades: 13 Longs: 7 Shorts: 6 win %: 23.076923%
+Return 2.310678 num trades: 13 Longs: 7 Shorts: 6 win %: 23.076923%
+Return 2.395209 num trades: 11 Longs: 6 Shorts: 5 win %: 27.272727%
+Return 1.787532 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.828210 num trades: 9 Longs: 5 Shorts: 4 win %: 33.333333%
+Return 1.596987 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.596987 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.617183 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.617183 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.418484 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.383957 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.383957 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.383957 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.202899 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.153478 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.153478 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.077613 num trades: 11 Longs: 6 Shorts: 5 win %: 18.181818%
+Return 0.602325 num trades: 11 Longs: 6 Shorts: 5 win %: 18.181818%
+Return 0.635397 num trades: 11 Longs: 6 Shorts: 5 win %: 18.181818%
+Return 0.635397 num trades: 11 Longs: 6 Shorts: 5 win %: 18.181818%
+Return 0.585735 num trades: 11 Longs: 6 Shorts: 5 win %: 18.181818%
+Return 0.607684 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 0.607684 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 0.590975 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 0.590975 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 0.895392 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.535008 num trades: 49 Longs: 25 Shorts: 24 win %: 38.775510%
+Return 1.985632 num trades: 41 Longs: 21 Shorts: 20 win %: 39.024390%
+Return 1.238599 num trades: 31 Longs: 16 Shorts: 15 win %: 41.935484%
+Return 1.317906 num trades: 29 Longs: 15 Shorts: 14 win %: 44.827586%
+Return 1.200625 num trades: 27 Longs: 14 Shorts: 13 win %: 33.333333%
+Return 1.491399 num trades: 25 Longs: 13 Shorts: 12 win %: 32.000000%
+Return 1.382189 num trades: 23 Longs: 12 Shorts: 11 win %: 30.434783%
+Return 2.957296 num trades: 19 Longs: 10 Shorts: 9 win %: 36.842105%
+Return 2.848729 num trades: 15 Longs: 8 Shorts: 7 win %: 40.000000%
+Return 2.951364 num trades: 15 Longs: 8 Shorts: 7 win %: 40.000000%
+Return 3.310906 num trades: 13 Longs: 7 Shorts: 6 win %: 38.461538%
+Return 3.434137 num trades: 13 Longs: 7 Shorts: 6 win %: 38.461538%
+Return 4.222254 num trades: 11 Longs: 6 Shorts: 5 win %: 36.363636%
+Return 3.954932 num trades: 11 Longs: 6 Shorts: 5 win %: 36.363636%
+Return 3.517344 num trades: 11 Longs: 6 Shorts: 5 win %: 36.363636%
+Return 2.446860 num trades: 11 Longs: 6 Shorts: 5 win %: 36.363636%
+Return 3.048942 num trades: 15 Longs: 8 Shorts: 7 win %: 33.333333%
+Return 1.506698 num trades: 13 Longs: 7 Shorts: 6 win %: 15.384615%
+Return 1.627367 num trades: 11 Longs: 6 Shorts: 5 win %: 18.181818%
+Return 1.480658 num trades: 11 Longs: 6 Shorts: 5 win %: 18.181818%
+Return 1.751259 num trades: 9 Longs: 5 Shorts: 4 win %: 33.333333%
+Return 1.794286 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.794286 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.816976 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.816976 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.593729 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.554937 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.533232 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.329805 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.329805 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.292420 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.292420 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.292420 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.292420 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 0.707589 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 0.753666 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 0.761919 num trades: 11 Longs: 6 Shorts: 5 win %: 27.272727%
+Return 0.741301 num trades: 11 Longs: 6 Shorts: 5 win %: 27.272727%
+Return 0.714942 num trades: 11 Longs: 6 Shorts: 5 win %: 18.181818%
+Return 0.718091 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 0.718091 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.067683 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.067683 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.067683 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.568202 num trades: 49 Longs: 25 Shorts: 24 win %: 38.775510%
+Return 3.290137 num trades: 35 Longs: 18 Shorts: 17 win %: 45.714286%
+Return 1.188716 num trades: 31 Longs: 16 Shorts: 15 win %: 32.258065%
+Return 1.439804 num trades: 27 Longs: 14 Shorts: 13 win %: 33.333333%
+Return 1.527207 num trades: 25 Longs: 13 Shorts: 12 win %: 36.000000%
+Return 2.030613 num trades: 23 Longs: 12 Shorts: 11 win %: 39.130435%
+Return 3.179935 num trades: 15 Longs: 8 Shorts: 7 win %: 40.000000%
+Return 3.109888 num trades: 13 Longs: 7 Shorts: 6 win %: 38.461538%
+Return 3.851906 num trades: 13 Longs: 7 Shorts: 6 win %: 53.846154%
+Return 3.774633 num trades: 11 Longs: 6 Shorts: 5 win %: 54.545455%
+Return 4.329782 num trades: 11 Longs: 6 Shorts: 5 win %: 54.545455%
+Return 4.577541 num trades: 9 Longs: 5 Shorts: 4 win %: 55.555556%
+Return 5.335188 num trades: 9 Longs: 5 Shorts: 4 win %: 55.555556%
+Return 5.434394 num trades: 9 Longs: 5 Shorts: 4 win %: 44.444444%
+Return 3.075609 num trades: 9 Longs: 5 Shorts: 4 win %: 33.333333%
+Return 2.671925 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 2.121913 num trades: 11 Longs: 6 Shorts: 5 win %: 27.272727%
+Return 1.898736 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.817300 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.939173 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.939173 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.962916 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.771229 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.738068 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.697091 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.697091 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.413393 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.432514 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.432514 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.432514 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 0.826986 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 0.826986 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 0.785719 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 0.785719 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 0.785719 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 0.824432 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 0.699652 num trades: 11 Longs: 6 Shorts: 5 win %: 18.181818%
+Return 0.762873 num trades: 11 Longs: 6 Shorts: 5 win %: 27.272727%
+Return 1.103813 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.075834 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.075834 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.019091 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 0.996719 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 2.463971 num trades: 49 Longs: 25 Shorts: 24 win %: 44.897959%
+Return 2.331807 num trades: 34 Longs: 17 Shorts: 17 win %: 38.235294%
+Return 1.499975 num trades: 29 Longs: 15 Shorts: 14 win %: 31.034483%
+Return 2.290338 num trades: 27 Longs: 14 Shorts: 13 win %: 48.148148%
+Return 2.221190 num trades: 21 Longs: 11 Shorts: 10 win %: 28.571429%
+Return 3.965898 num trades: 17 Longs: 9 Shorts: 8 win %: 35.294118%
+Return 4.108873 num trades: 15 Longs: 8 Shorts: 7 win %: 40.000000%
+Return 4.810735 num trades: 13 Longs: 7 Shorts: 6 win %: 53.846154%
+Return 3.679347 num trades: 13 Longs: 7 Shorts: 6 win %: 46.153846%
+Return 4.536525 num trades: 9 Longs: 5 Shorts: 4 win %: 55.555556%
+Return 5.410172 num trades: 9 Longs: 5 Shorts: 4 win %: 55.555556%
+Return 6.415759 num trades: 9 Longs: 5 Shorts: 4 win %: 55.555556%
+Return 3.428981 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 3.428981 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 3.759783 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 3.683423 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 3.286019 num trades: 9 Longs: 5 Shorts: 4 win %: 33.333333%
+Return 2.835749 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 3.025921 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 3.025921 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 3.021005 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 3.021005 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 2.892346 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 2.867383 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 2.377993 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 2.377993 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 2.377993 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 1.299929 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 1.291666 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 1.291666 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 1.291666 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 1.291666 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 1.291666 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 1.367580 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 2.037745 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 2.151368 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 1.952974 num trades: 9 Longs: 5 Shorts: 4 win %: 44.444444%
+Return 1.825488 num trades: 9 Longs: 5 Shorts: 4 win %: 33.333333%
+Return 1.832716 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 1.792483 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 1.697941 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 1.697941 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 2.158505 num trades: 44 Longs: 22 Shorts: 22 win %: 43.181818%
+Return 1.215398 num trades: 33 Longs: 17 Shorts: 16 win %: 30.303030%
+Return 1.890918 num trades: 31 Longs: 16 Shorts: 15 win %: 41.935484%
+Return 3.679126 num trades: 21 Longs: 11 Shorts: 10 win %: 38.095238%
+Return 3.247136 num trades: 17 Longs: 9 Shorts: 8 win %: 35.294118%
+Return 3.582052 num trades: 15 Longs: 8 Shorts: 7 win %: 33.333333%
+Return 4.028772 num trades: 13 Longs: 7 Shorts: 6 win %: 38.461538%
+Return 4.261958 num trades: 13 Longs: 7 Shorts: 6 win %: 53.846154%
+Return 4.661928 num trades: 11 Longs: 6 Shorts: 5 win %: 45.454545%
+Return 5.630788 num trades: 9 Longs: 5 Shorts: 4 win %: 44.444444%
+Return 5.868760 num trades: 9 Longs: 5 Shorts: 4 win %: 44.444444%
+Return 3.718528 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 3.803148 num trades: 7 Longs: 4 Shorts: 3 win %: 57.142857%
+Return 3.692964 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 3.641899 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 3.385131 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 2.763548 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 2.763548 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 2.950968 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 2.987482 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 2.861716 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 2.881283 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 2.765485 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 2.765485 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 2.382332 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 2.625458 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 1.581451 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 1.581451 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 1.667117 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 1.667117 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 1.638683 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 2.406163 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 2.406163 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 2.530362 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 2.530362 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 2.614496 num trades: 9 Longs: 5 Shorts: 4 win %: 55.555556%
+Return 2.397196 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 2.499089 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 2.135592 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 2.135592 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 2.032181 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 1.382608 num trades: 41 Longs: 21 Shorts: 20 win %: 31.707317%
+Return 2.570778 num trades: 29 Longs: 15 Shorts: 14 win %: 34.482759%
+Return 3.367691 num trades: 27 Longs: 14 Shorts: 13 win %: 40.740741%
+Return 2.492629 num trades: 21 Longs: 11 Shorts: 10 win %: 33.333333%
+Return 3.749121 num trades: 17 Longs: 9 Shorts: 8 win %: 52.941176%
+Return 3.856496 num trades: 15 Longs: 8 Shorts: 7 win %: 46.666667%
+Return 4.302627 num trades: 13 Longs: 7 Shorts: 6 win %: 46.153846%
+Return 5.366875 num trades: 11 Longs: 6 Shorts: 5 win %: 45.454545%
+Return 6.710802 num trades: 9 Longs: 5 Shorts: 4 win %: 44.444444%
+Return 6.793436 num trades: 9 Longs: 5 Shorts: 4 win %: 44.444444%
+Return 4.423185 num trades: 7 Longs: 4 Shorts: 3 win %: 71.428571%
+Return 3.967511 num trades: 7 Longs: 4 Shorts: 3 win %: 71.428571%
+Return 3.801132 num trades: 7 Longs: 4 Shorts: 3 win %: 57.142857%
+Return 3.400985 num trades: 7 Longs: 4 Shorts: 3 win %: 57.142857%
+Return 3.400985 num trades: 7 Longs: 4 Shorts: 3 win %: 57.142857%
+Return 3.475744 num trades: 7 Longs: 4 Shorts: 3 win %: 57.142857%
+Return 2.852182 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 3.063483 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 3.088561 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 3.020155 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 2.907500 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 2.520472 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 2.570522 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 2.450507 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 2.450507 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 1.488315 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.535612 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.535612 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.603872 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 2.441084 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 2.441084 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 2.441084 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 2.441084 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 2.468133 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 2.477813 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 2.314625 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 2.412126 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 2.300794 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 2.045487 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 2.045487 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.469808 num trades: 43 Longs: 22 Shorts: 21 win %: 44.186047%
+Return 1.315422 num trades: 29 Longs: 15 Shorts: 14 win %: 37.931034%
+Return 1.438177 num trades: 23 Longs: 12 Shorts: 11 win %: 30.434783%
+Return 3.065863 num trades: 17 Longs: 9 Shorts: 8 win %: 47.058824%
+Return 3.462140 num trades: 15 Longs: 8 Shorts: 7 win %: 40.000000%
+Return 5.927103 num trades: 11 Longs: 6 Shorts: 5 win %: 45.454545%
+Return 7.626497 num trades: 11 Longs: 6 Shorts: 5 win %: 45.454545%
+Return 6.637112 num trades: 11 Longs: 6 Shorts: 5 win %: 45.454545%
+Return 7.414092 num trades: 9 Longs: 5 Shorts: 4 win %: 55.555556%
+Return 3.851610 num trades: 7 Longs: 4 Shorts: 3 win %: 57.142857%
+Return 3.970682 num trades: 7 Longs: 4 Shorts: 3 win %: 57.142857%
+Return 3.034854 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 2.992490 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 3.057376 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 2.433503 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 2.433503 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 2.199228 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 2.361311 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 2.361311 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 2.354444 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 2.267971 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 2.163772 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 2.163772 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.300177 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.369428 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.369428 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.438570 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 1.438570 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 1.866242 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.870289 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.870289 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.830399 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.837979 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.838689 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.692697 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.767752 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.699838 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.499996 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 2.006728 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 3.148300 num trades: 39 Longs: 20 Shorts: 19 win %: 51.282051%
+Return 1.384188 num trades: 27 Longs: 14 Shorts: 13 win %: 40.740741%
+Return 2.744796 num trades: 21 Longs: 11 Shorts: 10 win %: 42.857143%
+Return 4.366966 num trades: 15 Longs: 8 Shorts: 7 win %: 40.000000%
+Return 7.583989 num trades: 13 Longs: 7 Shorts: 6 win %: 46.153846%
+Return 6.350051 num trades: 11 Longs: 6 Shorts: 5 win %: 45.454545%
+Return 7.056291 num trades: 11 Longs: 6 Shorts: 5 win %: 54.545455%
+Return 7.168634 num trades: 11 Longs: 6 Shorts: 5 win %: 54.545455%
+Return 3.476902 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 2.760650 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 2.625923 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 2.380832 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 2.408357 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 2.174093 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 2.145480 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 2.130168 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.990899 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 2.097194 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 2.097194 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 2.015641 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.152119 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.152119 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.217430 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.217430 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.224965 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.800134 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.861857 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.861857 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.811050 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.772424 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.772424 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.772424 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.754458 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.632324 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.474283 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.981122 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.734996 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.734996 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.839048 num trades: 39 Longs: 20 Shorts: 19 win %: 46.153846%
+Return 2.480589 num trades: 27 Longs: 14 Shorts: 13 win %: 44.444444%
+Return 3.887353 num trades: 17 Longs: 9 Shorts: 8 win %: 41.176471%
+Return 5.916284 num trades: 13 Longs: 7 Shorts: 6 win %: 38.461538%
+Return 6.682921 num trades: 11 Longs: 6 Shorts: 5 win %: 63.636364%
+Return 6.602530 num trades: 11 Longs: 6 Shorts: 5 win %: 54.545455%
+Return 4.102466 num trades: 9 Longs: 5 Shorts: 4 win %: 55.555556%
+Return 2.698052 num trades: 9 Longs: 5 Shorts: 4 win %: 44.444444%
+Return 2.518559 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 2.547676 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 1.025434 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.997238 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.982467 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.969537 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.923488 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.923488 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.983979 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.897619 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.954335 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.860757 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.779621 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.826255 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.873368 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.283449 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.309646 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.261549 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.267050 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.239609 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.240113 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.240113 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.236965 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.146308 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.146308 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.611900 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.546602 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.333042 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.333042 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 3.816618 num trades: 35 Longs: 18 Shorts: 17 win %: 54.285714%
+Return 5.048522 num trades: 21 Longs: 11 Shorts: 10 win %: 52.380952%
+Return 7.107227 num trades: 15 Longs: 8 Shorts: 7 win %: 53.333333%
+Return 5.098639 num trades: 15 Longs: 8 Shorts: 7 win %: 40.000000%
+Return 7.027542 num trades: 11 Longs: 6 Shorts: 5 win %: 54.545455%
+Return 3.107930 num trades: 9 Longs: 5 Shorts: 4 win %: 44.444444%
+Return 2.197200 num trades: 9 Longs: 5 Shorts: 4 win %: 44.444444%
+Return 2.060210 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 0.988679 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.961494 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.940268 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.934126 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.934126 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.864950 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.864950 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.966076 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.978288 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.874120 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.829013 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.828729 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.291140 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.344001 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.429773 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.429773 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.404704 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.405257 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.386769 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.288502 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.274436 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.274436 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.274436 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.721424 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.799225 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.582417 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.392808 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.380620 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 4.124171 num trades: 33 Longs: 17 Shorts: 16 win %: 45.454545%
+Return 6.311919 num trades: 17 Longs: 9 Shorts: 8 win %: 52.941176%
+Return 5.851072 num trades: 13 Longs: 7 Shorts: 6 win %: 46.153846%
+Return 4.884596 num trades: 13 Longs: 7 Shorts: 6 win %: 61.538462%
+Return 2.224835 num trades: 9 Longs: 5 Shorts: 4 win %: 44.444444%
+Return 2.029856 num trades: 9 Longs: 5 Shorts: 4 win %: 44.444444%
+Return 0.964620 num trades: 9 Longs: 5 Shorts: 4 win %: 44.444444%
+Return 0.933747 num trades: 9 Longs: 5 Shorts: 4 win %: 44.444444%
+Return 0.909428 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.044229 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.624289 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.476032 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.521898 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.672204 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.672204 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.692607 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.601511 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.538052 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.439352 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.522642 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.552208 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.538287 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.544772 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.556400 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.511196 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.387107 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.387107 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.473498 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.541230 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.978288 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.978288 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.730330 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.829718 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.592692 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.592692 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 3.035147 num trades: 29 Longs: 15 Shorts: 14 win %: 51.724138%
+Return 2.655725 num trades: 15 Longs: 8 Shorts: 7 win %: 53.333333%
+Return 2.820993 num trades: 13 Longs: 7 Shorts: 6 win %: 53.846154%
+Return 2.702209 num trades: 11 Longs: 6 Shorts: 5 win %: 45.454545%
+Return 1.063814 num trades: 9 Longs: 5 Shorts: 4 win %: 44.444444%
+Return 1.149502 num trades: 9 Longs: 5 Shorts: 4 win %: 44.444444%
+Return 1.043588 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.187413 num trades: 9 Longs: 5 Shorts: 4 win %: 33.333333%
+Return 1.572608 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.572608 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.621475 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.729265 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.729265 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.803353 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.688502 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.648831 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.623749 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.481880 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.486269 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.536061 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.590594 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.609430 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.485549 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.485549 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.464477 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.531795 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 2.107726 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 2.035964 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 2.035964 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.854523 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.854523 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.469205 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.469205 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.217197 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.765339 num trades: 25 Longs: 13 Shorts: 12 win %: 40.000000%
+Return 2.013702 num trades: 15 Longs: 8 Shorts: 7 win %: 46.666667%
+Return 2.410108 num trades: 13 Longs: 7 Shorts: 6 win %: 53.846154%
+Return 1.030845 num trades: 9 Longs: 5 Shorts: 4 win %: 33.333333%
+Return 1.030533 num trades: 9 Longs: 5 Shorts: 4 win %: 33.333333%
+Return 1.559669 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.488091 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.450385 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.550754 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.620937 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.671075 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.636104 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.636104 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.584224 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.546393 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.461022 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.461022 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.367669 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.529230 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.478337 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.349880 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.432611 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.324738 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.822819 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.833958 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.757564 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.593422 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.593422 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.375544 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.362142 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.362142 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.362142 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.053629 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.544144 num trades: 23 Longs: 12 Shorts: 11 win %: 39.130435%
+Return 2.156996 num trades: 15 Longs: 8 Shorts: 7 win %: 53.333333%
+Return 1.053765 num trades: 9 Longs: 5 Shorts: 4 win %: 33.333333%
+Return 1.108872 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.508558 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.505268 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.402219 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.561023 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.780658 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.802745 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.745580 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.703896 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.715523 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.715523 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.620816 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.506178 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.506178 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.444721 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.563571 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.570577 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 2.063050 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.907706 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 2.010628 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 2.040898 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.960953 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.942422 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.709402 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.692747 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.692747 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.314822 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.290026 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.290026 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.867923 num trades: 17 Longs: 9 Shorts: 8 win %: 47.058824%
+Return 1.865864 num trades: 15 Longs: 8 Shorts: 7 win %: 26.666667%
+Return 1.116063 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.419953 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.721220 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.770244 num trades: 9 Longs: 5 Shorts: 4 win %: 44.444444%
+Return 1.458902 num trades: 9 Longs: 5 Shorts: 4 win %: 33.333333%
+Return 1.625187 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.573122 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.544229 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.519972 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.455735 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.537982 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.537982 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.424977 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.513487 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.411846 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.494784 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 2.044815 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 2.056782 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 2.135541 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 2.023705 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.917841 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.899075 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.671255 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.639737 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.554537 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.272432 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.272432 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.272432 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.274392 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.667795 num trades: 17 Longs: 9 Shorts: 8 win %: 23.529412%
+Return 0.978467 num trades: 13 Longs: 7 Shorts: 6 win %: 23.076923%
+Return 1.656679 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.379208 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.171718 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.218669 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.128921 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.326018 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.305188 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.326597 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.326597 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.229123 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.229123 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.236330 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.313122 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.224937 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.784507 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.974409 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.983522 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.646622 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.721130 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.660611 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.433108 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.433108 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.094417 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.094417 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.072326 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.072326 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.150800 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.150800 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.126983 num trades: 17 Longs: 9 Shorts: 8 win %: 29.411765%
+Return 1.280815 num trades: 11 Longs: 6 Shorts: 5 win %: 27.272727%
+Return 1.124436 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.218540 num trades: 9 Longs: 5 Shorts: 4 win %: 33.333333%
+Return 1.294399 num trades: 9 Longs: 5 Shorts: 4 win %: 33.333333%
+Return 1.219603 num trades: 9 Longs: 5 Shorts: 4 win %: 33.333333%
+Return 1.371373 num trades: 9 Longs: 5 Shorts: 4 win %: 33.333333%
+Return 1.823234 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.936606 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.821596 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.821596 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.348597 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.831324 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.317158 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.912095 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.912095 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.712027 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.711917 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.613582 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.635067 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.571481 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.114624 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.025156 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.949865 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.949865 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.022942 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.986503 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.986503 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.121456 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.564220 num trades: 15 Longs: 8 Shorts: 7 win %: 46.666667%
+Return 1.637176 num trades: 9 Longs: 5 Shorts: 4 win %: 44.444444%
+Return 1.403714 num trades: 9 Longs: 5 Shorts: 4 win %: 33.333333%
+Return 1.236018 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.280637 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.967473 num trades: 9 Longs: 5 Shorts: 4 win %: 44.444444%
+Return 2.082789 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.783308 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.793912 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.793964 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.775415 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.949117 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 2.055521 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.961451 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 2.029536 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.801993 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.801824 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.784890 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.710470 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.215750 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.215750 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.064716 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.008724 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.045994 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.772868 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.915960 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.877360 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.877360 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.452959 num trades: 17 Longs: 9 Shorts: 8 win %: 41.176471%
+Return 1.165742 num trades: 11 Longs: 6 Shorts: 5 win %: 18.181818%
+Return 1.273947 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.413003 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.425501 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.302785 num trades: 9 Longs: 5 Shorts: 4 win %: 33.333333%
+Return 1.377071 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.380638 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.364046 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.463852 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.442709 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.442709 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.492789 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.492789 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.492648 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.478043 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.339079 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.999139 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.003594 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.878917 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.623269 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.543244 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.586221 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.694756 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.665717 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.665717 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.594039 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.417281 num trades: 17 Longs: 9 Shorts: 8 win %: 23.529412%
+Return 1.878533 num trades: 11 Longs: 6 Shorts: 5 win %: 36.363636%
+Return 1.391547 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 1.369844 num trades: 9 Longs: 5 Shorts: 4 win %: 33.333333%
+Return 1.387117 num trades: 9 Longs: 5 Shorts: 4 win %: 33.333333%
+Return 1.452644 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.412888 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.341239 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.490038 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.490038 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.515326 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.500499 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.521934 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.507042 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.507655 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.487479 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.124920 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.050733 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.744815 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.648388 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.726655 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.784141 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.784141 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.668822 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.573117 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.548927 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.429808 num trades: 17 Longs: 9 Shorts: 8 win %: 17.647059%
+Return 1.514721 num trades: 11 Longs: 6 Shorts: 5 win %: 45.454545%
+Return 1.227479 num trades: 11 Longs: 6 Shorts: 5 win %: 36.363636%
+Return 1.038996 num trades: 9 Longs: 5 Shorts: 4 win %: 33.333333%
+Return 1.062677 num trades: 9 Longs: 5 Shorts: 4 win %: 33.333333%
+Return 1.414112 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.213641 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.186224 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.196925 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.196925 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.411453 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.411453 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.393153 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.393153 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.050327 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.775640 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.815255 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.782690 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.807509 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.539595 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.593197 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.508454 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.480787 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.395068 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.460453 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.387504 num trades: 17 Longs: 9 Shorts: 8 win %: 47.058824%
+Return 1.669556 num trades: 13 Longs: 7 Shorts: 6 win %: 53.846154%
+Return 1.158055 num trades: 11 Longs: 6 Shorts: 5 win %: 27.272727%
+Return 0.764753 num trades: 11 Longs: 6 Shorts: 5 win %: 27.272727%
+Return 0.884612 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.884612 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.903463 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.883183 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.162386 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.116913 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.117385 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.372376 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.034663 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.764073 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.801397 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.803097 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.569834 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.522277 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.466482 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.452523 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.427900 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.550738 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.459279 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.459279 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.221004 num trades: 19 Longs: 10 Shorts: 9 win %: 47.368421%
+Return 1.907991 num trades: 15 Longs: 8 Shorts: 7 win %: 46.666667%
+Return 0.699471 num trades: 11 Longs: 6 Shorts: 5 win %: 36.363636%
+Return 0.590712 num trades: 11 Longs: 6 Shorts: 5 win %: 36.363636%
+Return 0.831168 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 0.833930 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.819529 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.047876 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.048319 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.774727 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.715729 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.739660 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.720992 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.722521 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.622941 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.556368 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.469876 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.385536 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.430161 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.547087 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.547087 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.452446 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.429121 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.908424 num trades: 17 Longs: 9 Shorts: 8 win %: 47.058824%
+Return 0.434674 num trades: 13 Longs: 7 Shorts: 6 win %: 23.076923%
+Return 0.481291 num trades: 13 Longs: 7 Shorts: 6 win %: 30.769231%
+Return 0.674899 num trades: 13 Longs: 7 Shorts: 6 win %: 23.076923%
+Return 0.666705 num trades: 11 Longs: 6 Shorts: 5 win %: 36.363636%
+Return 0.607928 num trades: 11 Longs: 6 Shorts: 5 win %: 36.363636%
+Return 0.617413 num trades: 11 Longs: 6 Shorts: 5 win %: 18.181818%
+Return 0.884283 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 0.764063 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 0.735186 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.769468 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.694075 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.674749 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.674749 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.508954 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.458698 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.370869 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.370869 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.562873 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.504029 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.416837 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.257688 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.315543 num trades: 19 Longs: 10 Shorts: 9 win %: 31.578947%
+Return 0.299375 num trades: 13 Longs: 7 Shorts: 6 win %: 23.076923%
+Return 0.376296 num trades: 13 Longs: 7 Shorts: 6 win %: 23.076923%
+Return 0.671634 num trades: 11 Longs: 6 Shorts: 5 win %: 27.272727%
+Return 0.651772 num trades: 11 Longs: 6 Shorts: 5 win %: 27.272727%
+Return 0.653250 num trades: 11 Longs: 6 Shorts: 5 win %: 27.272727%
+Return 0.715587 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 0.824179 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.802275 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.825486 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.734006 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.682286 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.716125 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.463822 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.395184 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.367456 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.534536 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.557693 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.509659 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.442695 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.359061 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.685036 num trades: 17 Longs: 9 Shorts: 8 win %: 47.058824%
+Return 0.691251 num trades: 13 Longs: 7 Shorts: 6 win %: 38.461538%
+Return 0.725596 num trades: 13 Longs: 7 Shorts: 6 win %: 38.461538%
+Return 0.612876 num trades: 11 Longs: 6 Shorts: 5 win %: 36.363636%
+Return 0.730776 num trades: 11 Longs: 6 Shorts: 5 win %: 45.454545%
+Return 0.706035 num trades: 9 Longs: 5 Shorts: 4 win %: 33.333333%
+Return 0.919996 num trades: 9 Longs: 5 Shorts: 4 win %: 44.444444%
+Return 0.840531 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 0.942644 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 0.774981 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 0.758915 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 0.701224 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 0.468573 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 0.407441 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 0.447030 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 0.663785 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 0.638714 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 0.638714 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 0.681374 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 0.668530 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 0.434962 num trades: 17 Longs: 9 Shorts: 8 win %: 23.529412%
+Return 0.769016 num trades: 13 Longs: 7 Shorts: 6 win %: 46.153846%
+Return 0.858196 num trades: 11 Longs: 6 Shorts: 5 win %: 36.363636%
+Return 1.175223 num trades: 9 Longs: 5 Shorts: 4 win %: 44.444444%
+Return 1.431093 num trades: 9 Longs: 5 Shorts: 4 win %: 44.444444%
+Return 1.602620 num trades: 9 Longs: 5 Shorts: 4 win %: 55.555556%
+Return 1.432568 num trades: 9 Longs: 5 Shorts: 4 win %: 55.555556%
+Return 1.269135 num trades: 9 Longs: 5 Shorts: 4 win %: 55.555556%
+Return 0.854904 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 0.786283 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 0.867527 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 0.540608 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 0.540608 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 0.769405 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 0.802737 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 0.735424 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 0.875092 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 0.709268 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 0.695626 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 1.143297 num trades: 17 Longs: 9 Shorts: 8 win %: 47.058824%
+Return 1.203450 num trades: 13 Longs: 7 Shorts: 6 win %: 53.846154%
+Return 1.458731 num trades: 9 Longs: 5 Shorts: 4 win %: 44.444444%
+Return 1.239626 num trades: 9 Longs: 5 Shorts: 4 win %: 44.444444%
+Return 1.492570 num trades: 9 Longs: 5 Shorts: 4 win %: 55.555556%
+Return 1.410135 num trades: 9 Longs: 5 Shorts: 4 win %: 55.555556%
+Return 1.307803 num trades: 9 Longs: 5 Shorts: 4 win %: 55.555556%
+Return 0.857548 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 0.781394 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 0.872241 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 0.763935 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 0.695950 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 0.695950 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 0.636011 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 0.664638 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 0.713240 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 0.699522 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 0.419250 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 1.248102 num trades: 19 Longs: 10 Shorts: 9 win %: 57.894737%
+Return 1.118119 num trades: 11 Longs: 6 Shorts: 5 win %: 45.454545%
+Return 1.408519 num trades: 9 Longs: 5 Shorts: 4 win %: 55.555556%
+Return 1.216166 num trades: 9 Longs: 5 Shorts: 4 win %: 55.555556%
+Return 1.692695 num trades: 9 Longs: 5 Shorts: 4 win %: 55.555556%
+Return 1.099181 num trades: 9 Longs: 5 Shorts: 4 win %: 55.555556%
+Return 0.766505 num trades: 9 Longs: 5 Shorts: 4 win %: 33.333333%
+Return 0.700406 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 0.644145 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 0.687980 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 0.469469 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 0.593706 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 0.631736 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 0.676886 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 0.676886 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 0.410800 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 0.409148 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 1.853828 num trades: 17 Longs: 9 Shorts: 8 win %: 58.823529%
+Return 1.339066 num trades: 11 Longs: 6 Shorts: 5 win %: 36.363636%
+Return 1.282895 num trades: 9 Longs: 5 Shorts: 4 win %: 44.444444%
+Return 1.413241 num trades: 9 Longs: 5 Shorts: 4 win %: 44.444444%
+Return 1.376655 num trades: 9 Longs: 5 Shorts: 4 win %: 44.444444%
+Return 1.028599 num trades: 9 Longs: 5 Shorts: 4 win %: 33.333333%
+Return 0.966608 num trades: 9 Longs: 5 Shorts: 4 win %: 33.333333%
+Return 0.637307 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.560625 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.488484 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.514021 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.497836 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.669583 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.409347 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.409347 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.394840 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.189551 num trades: 17 Longs: 9 Shorts: 8 win %: 41.176471%
+Return 1.073230 num trades: 13 Longs: 7 Shorts: 6 win %: 38.461538%
+Return 1.335193 num trades: 11 Longs: 6 Shorts: 5 win %: 45.454545%
+Return 1.137009 num trades: 9 Longs: 5 Shorts: 4 win %: 33.333333%
+Return 0.913778 num trades: 9 Longs: 5 Shorts: 4 win %: 33.333333%
+Return 0.959856 num trades: 9 Longs: 5 Shorts: 4 win %: 33.333333%
+Return 0.810769 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 0.496140 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.471643 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.480254 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.489203 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.389528 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.382457 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.380929 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.322287 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 1.026931 num trades: 19 Longs: 10 Shorts: 9 win %: 42.105263%
+Return 1.155302 num trades: 13 Longs: 7 Shorts: 6 win %: 53.846154%
+Return 0.865899 num trades: 13 Longs: 7 Shorts: 6 win %: 38.461538%
+Return 1.024954 num trades: 9 Longs: 5 Shorts: 4 win %: 44.444444%
+Return 1.028720 num trades: 9 Longs: 5 Shorts: 4 win %: 44.444444%
+Return 0.622197 num trades: 9 Longs: 5 Shorts: 4 win %: 33.333333%
+Return 0.678569 num trades: 9 Longs: 5 Shorts: 4 win %: 33.333333%
+Return 0.438477 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 0.572686 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 0.346042 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 0.411742 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 0.326617 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 0.325251 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 0.368618 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 1.341273 num trades: 17 Longs: 9 Shorts: 8 win %: 58.823529%
+Return 0.745736 num trades: 13 Longs: 7 Shorts: 6 win %: 38.461538%
+Return 1.070398 num trades: 11 Longs: 6 Shorts: 5 win %: 45.454545%
+Return 0.994912 num trades: 9 Longs: 5 Shorts: 4 win %: 44.444444%
+Return 0.779771 num trades: 9 Longs: 5 Shorts: 4 win %: 44.444444%
+Return 0.640746 num trades: 9 Longs: 5 Shorts: 4 win %: 44.444444%
+Return 0.607978 num trades: 9 Longs: 5 Shorts: 4 win %: 44.444444%
+Return 0.349238 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 0.315709 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 0.246558 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 0.231172 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 0.230205 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 0.578075 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 0.722479 num trades: 17 Longs: 9 Shorts: 8 win %: 35.294118%
+Return 0.856569 num trades: 11 Longs: 6 Shorts: 5 win %: 36.363636%
+Return 0.785064 num trades: 11 Longs: 6 Shorts: 5 win %: 36.363636%
+Return 0.672446 num trades: 9 Longs: 5 Shorts: 4 win %: 44.444444%
+Return 0.654800 num trades: 9 Longs: 5 Shorts: 4 win %: 44.444444%
+Return 0.642627 num trades: 9 Longs: 5 Shorts: 4 win %: 44.444444%
+Return 0.392033 num trades: 9 Longs: 5 Shorts: 4 win %: 44.444444%
+Return 0.201745 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 0.246086 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 0.241367 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 0.532662 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 0.544982 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 0.833695 num trades: 13 Longs: 7 Shorts: 6 win %: 30.769231%
+Return 0.796055 num trades: 11 Longs: 6 Shorts: 5 win %: 36.363636%
+Return 0.578355 num trades: 11 Longs: 6 Shorts: 5 win %: 36.363636%
+Return 0.357918 num trades: 9 Longs: 5 Shorts: 4 win %: 44.444444%
+Return 0.327954 num trades: 9 Longs: 5 Shorts: 4 win %: 33.333333%
+Return 0.289450 num trades: 9 Longs: 5 Shorts: 4 win %: 33.333333%
+Return 0.222269 num trades: 9 Longs: 5 Shorts: 4 win %: 33.333333%
+Return 0.264167 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 0.539891 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 0.478488 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 0.644327 num trades: 7 Longs: 4 Shorts: 3 win %: 42.857143%
+Return 0.459280 num trades: 15 Longs: 8 Shorts: 7 win %: 33.333333%
+Return 0.486471 num trades: 11 Longs: 6 Shorts: 5 win %: 27.272727%
+Return 0.471897 num trades: 11 Longs: 6 Shorts: 5 win %: 27.272727%
+Return 0.255091 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 0.200346 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 0.196240 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 0.479294 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 0.448766 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.523098 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.601466 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.458927 num trades: 15 Longs: 8 Shorts: 7 win %: 33.333333%
+Return 0.419033 num trades: 13 Longs: 7 Shorts: 6 win %: 23.076923%
+Return 0.412071 num trades: 11 Longs: 6 Shorts: 5 win %: 27.272727%
+Return 0.415869 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 0.412812 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 0.455045 num trades: 9 Longs: 5 Shorts: 4 win %: 22.222222%
+Return 0.549108 num trades: 9 Longs: 5 Shorts: 4 win %: 33.333333%
+Return 0.494406 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.560190 num trades: 7 Longs: 4 Shorts: 3 win %: 28.571429%
+Return 0.697917 num trades: 15 Longs: 8 Shorts: 7 win %: 33.333333%
+Return 0.637919 num trades: 13 Longs: 7 Shorts: 6 win %: 30.769231%
+Return 0.511527 num trades: 11 Longs: 6 Shorts: 5 win %: 27.272727%
+Return 0.520416 num trades: 9 Longs: 5 Shorts: 4 win %: 33.333333%
+Return 0.590880 num trades: 9 Longs: 5 Shorts: 4 win %: 33.333333%
+Return 0.608828 num trades: 9 Longs: 5 Shorts: 4 win %: 44.444444%
+Return 0.680272 num trades: 9 Longs: 5 Shorts: 4 win %: 44.444444%
+Return 0.649157 num trades: 9 Longs: 5 Shorts: 4 win %: 55.555556%
+Return 0.709462 num trades: 17 Longs: 9 Shorts: 8 win %: 29.411765%
+Return 0.641067 num trades: 13 Longs: 7 Shorts: 6 win %: 23.076923%
+Return 0.778991 num trades: 13 Longs: 7 Shorts: 6 win %: 30.769231%
+Return 0.763024 num trades: 11 Longs: 6 Shorts: 5 win %: 36.363636%
+Return 0.605814 num trades: 11 Longs: 6 Shorts: 5 win %: 27.272727%
+Return 0.705732 num trades: 11 Longs: 6 Shorts: 5 win %: 27.272727%
+Return 0.562515 num trades: 9 Longs: 5 Shorts: 4 win %: 44.444444%
+Return 0.914436 num trades: 19 Longs: 10 Shorts: 9 win %: 52.631579%
+Return 0.896602 num trades: 13 Longs: 7 Shorts: 6 win %: 46.153846%
+Return 0.806163 num trades: 13 Longs: 7 Shorts: 6 win %: 53.846154%
+Return 0.625555 num trades: 11 Longs: 6 Shorts: 5 win %: 36.363636%
+Return 1.175560 num trades: 11 Longs: 6 Shorts: 5 win %: 45.454545%
+Return 1.403651 num trades: 11 Longs: 6 Shorts: 5 win %: 63.636364%
+Return 1.481155 num trades: 19 Longs: 10 Shorts: 9 win %: 63.157895%
+Return 1.222931 num trades: 13 Longs: 7 Shorts: 6 win %: 53.846154%
+Return 1.012908 num trades: 13 Longs: 7 Shorts: 6 win %: 46.153846%
+Return 1.369624 num trades: 11 Longs: 6 Shorts: 5 win %: 63.636364%
+Return 1.337320 num trades: 11 Longs: 6 Shorts: 5 win %: 54.545455%
+Return 0.734314 num trades: 21 Longs: 11 Shorts: 10 win %: 38.095238%
+Return 0.968962 num trades: 13 Longs: 7 Shorts: 6 win %: 38.461538%
+Return 1.133006 num trades: 11 Longs: 6 Shorts: 5 win %: 54.545455%
+Return 1.006913 num trades: 11 Longs: 6 Shorts: 5 win %: 54.545455%
+Return 1.758202 num trades: 19 Longs: 10 Shorts: 9 win %: 47.368421%
+Return 0.928239 num trades: 15 Longs: 8 Shorts: 7 win %: 40.000000%
+Return 1.097043 num trades: 11 Longs: 6 Shorts: 5 win %: 63.636364%
+Return 1.011099 num trades: 19 Longs: 10 Shorts: 9 win %: 47.368421%
+Return 1.014823 num trades: 17 Longs: 9 Shorts: 8 win %: 47.058824%
+Return 1.615063 num trades: 19 Longs: 10 Shorts: 9 win %: 52.631579%

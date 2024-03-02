@@ -3,7 +3,8 @@
 
 #include "IndicatorDirection.cpp"
 #include "Trade.cpp"
-
+ 
+ //TODO: sell at the end of the data period
 class Portfolio {
 private:
 	int trades;
@@ -63,8 +64,8 @@ public:
 		this->currentDirection = incomingDirection;
 	}
 
-	double getTotalReturns() {
-		return this->returns;
+	string getTradeStats() {
+		return "Return " + to_string(this->returns) + " num trades: " + to_string(this->trades) + " Longs: " + to_string(this->longs) + " Shorts: " + to_string(this->shorts) + " win %: " + to_string(this->positiveReturnTrade / this->trades * 100.0) + "%";
 	}
 };
 
