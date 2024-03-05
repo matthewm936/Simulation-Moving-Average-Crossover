@@ -3,28 +3,19 @@
 
 #include "IndicatorDirection.cpp"
 #include "Trade.cpp"
+
+#include <cmath>
  
- //TODO: sell at the end of the data period
 class Portfolio {
 private:
-	int trades;
-	int longs;
-	int shorts;
-
 	double returns;
 	double positiveReturnTrade;
 
-	IndicatorDirection currentDirection = IndicatorDirection::NONE;
-	Trade currentTrade = Trade();
+	int durationLong = 0;
+	int durationShort = 0;
 
-	void addTradeCount(IndicatorDirection direction) {
-		if (direction == IndicatorDirection::LONG) {
-			this->longs++;
-		} else if (direction == IndicatorDirection::SHORT) {
-			this->shorts++;
-		}
-		this->trades++;
-	}
+	IndicatorDirection currentDirection = IndicatorDirection::NONE;
+	Trade trades = Trade();
 
 	void totalReturns(double tradeReturn) {
 		if(tradeReturn > 0) {
@@ -33,39 +24,67 @@ private:
 		this->returns *= (1 + tradeReturn);
 	}
 
+	void updateDuration(IndicatorDirection incomingDirection) {
+		if (incomingDirection == IndicatorDirection::LONG) {
+			durationLong++;
+		} else if (incomingDirection == IndicatorDirection::SHORT) {
+			durationShort++;
+		}
+	}
+
 public:
 	Portfolio() {
 		this->positiveReturnTrade = 0.0;
-		this->trades = 0;
-		this->longs = 0;
-		this->shorts = 0;
 		this->returns = 1;
 	}
 
 	void updatePortfolio(IndicatorDirection incomingDirection, double currentPrice) {
+		updateDuration(incomingDirection);
+
 		if(currentDirection == incomingDirection || incomingDirection == IndicatorDirection::NEUTRAL) {
 			return;
 		}
-
 		if (currentDirection == IndicatorDirection::LONG && incomingDirection == IndicatorDirection::SHORT) {
-			totalReturns(currentTrade.exitLong(currentPrice));
-			currentTrade.enterShort(currentPrice);
+			totalReturns(trades.exitLong(currentPrice));
+			trades.enterShort(currentPrice);
 		} else if (currentDirection == IndicatorDirection::SHORT && incomingDirection == IndicatorDirection::LONG) {
-			totalReturns(currentTrade.exitShort(currentPrice));
-			currentTrade.enterLong(currentPrice);
+			totalReturns(trades.exitShort(currentPrice));
+			trades.enterLong(currentPrice);
 		} else if (currentDirection == IndicatorDirection::NONE) {
 			if (incomingDirection == IndicatorDirection::LONG) {
-				currentTrade.enterLong(currentPrice);
+				trades.enterLong(currentPrice);
 			} else if (incomingDirection == IndicatorDirection::SHORT) {
-				currentTrade.enterShort(currentPrice);
+				trades.enterShort(currentPrice);
 			}
 		}
-		this->addTradeCount(incomingDirection);
 		this->currentDirection = incomingDirection;
 	}
 
+	void closePortfolio(double currentPrice) {
+		if (currentDirection == IndicatorDirection::LONG) {
+			totalReturns(trades.exitLong(currentPrice));
+		} else if (currentDirection == IndicatorDirection::SHORT) {
+			totalReturns(trades.exitShort(currentPrice));
+		} 
+	}
+
 	string getTradeStats() {
-		return "Return " + to_string(this->returns) + " num trades: " + to_string(this->trades) + " Longs: " + to_string(this->longs) + " Shorts: " + to_string(this->shorts) + " win %: " + to_string(this->positiveReturnTrade / this->trades * 100.0) + "%";
+		string stats = "Return in %: ";
+    	stats += to_string(returns * 100);
+		stats += " num trades: ";
+		stats += to_string(trades.getTrades());
+		stats += " Longs entered: ";
+		stats += to_string(trades.getLongs());
+		stats += " Shorts entereed: ";
+		stats += to_string(trades.getShorts());
+		stats += " win %: ";
+    	stats += to_string(this->positiveReturnTrade / trades.getTrades() * 100.0);
+		stats += "%";
+		stats += " Duration Long: ";
+		stats += to_string(durationLong);
+		stats += " Duration Short: ";
+		stats += to_string(durationShort);
+		return stats;
 	}
 };
 

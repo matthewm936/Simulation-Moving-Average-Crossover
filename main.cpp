@@ -14,8 +14,8 @@ int main(int argc, char* argv[]) {
 
 	// Setup data
 	vector<string> rawDataFiles = { 
-		// "./Raw Data/BTC-USD-Daily-Yahoo.csv", 
-		"./Raw Data/BTC-USD-Monthly-Yahoo.csv", 
+		"./Raw Data/BTC-USD-Daily-Yahoo.csv", 
+		// "./Raw Data/BTC-USD-Monthly-Yahoo.csv", 
 		// "./Raw Data/BTC-USD-Weekly-Yahoo.csv" 
 	};
 	vector<string> subsectionDataFiles = { 

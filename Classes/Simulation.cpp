@@ -40,7 +40,7 @@ public:
 		}
 
 		// Setup output file
-		string outputFile = "Results of " + fileName.substr(fileName.find_last_of("/\\") + 1) + ".txt";
+		string outputFile = "Results of " + fileName.substr(fileName.find_last_of("/\\") + 1);
 
 		std::ofstream outputFilestream(outputFile);
 
@@ -59,6 +59,8 @@ public:
 		for(auto& MAcrossover : movingAverageCrossovers) {
 			getline(file, filetext); // Skip the header
 
+			double open = 0;
+
 			while (getline(file, filetext)) {
 				vector<string> row;
 				stringstream ss(filetext);
@@ -71,10 +73,12 @@ public:
 				// CSV file layout
 				// Date, Open, High, Low, Close, Adj Close, Volume
 				// 0     1     2     3    4      5          6
-				double open  = stod(row[1]);
+				open  = stod(row[1]);
 				MAcrossover.updateMovingAverageCrossover(open);
 				MAcrossover.updatePortfolio(open);
 			}
+			MAcrossover.closePortfolio(open);
+
 			outputFilestream << MAcrossover.portfolio.getTradeStats() << "\n";
 
 			file.clear();

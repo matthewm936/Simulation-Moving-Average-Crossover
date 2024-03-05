@@ -29,6 +29,10 @@ public:
 		portfolio.updatePortfolio(getSignal(), currentPrice);
 	}
 
+	void closePortfolio(double currentPrice) {
+		portfolio.closePortfolio(currentPrice);
+	}
+
 	IndicatorDirection getSignal() {
 		if(fast.getAverage() > slow.getAverage()) {
 			return IndicatorDirection::LONG;
