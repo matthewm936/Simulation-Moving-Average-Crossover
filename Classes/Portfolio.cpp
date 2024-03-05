@@ -73,21 +73,18 @@ public:
 	}
 
 	string getTradeStats() {
-		string stats = "Return in %: ";
+		string stats = "Portfolio returns %";
     	stats += to_string(returns * 100);
-		stats += " num trades: ";
-		stats += to_string(trades.getTrades());
-		stats += " Longs entered: ";
-		stats += to_string(trades.getLongs());
-		stats += " Shorts entereed: ";
-		stats += to_string(trades.getShorts());
-		stats += " win %: ";
+		stats += " win %";
     	stats += to_string(this->positiveReturnTrade / trades.getTrades() * 100.0);
-		stats += "%";
-		stats += " Duration Long: ";
-		stats += to_string(durationLong);
-		stats += " Duration Short: ";
+		stats += " Duration Long/short: ";
+		stats += to_string(durationLong) + "/";
 		stats += to_string(durationShort);
+		stats += " trades: ";
+		stats += to_string(trades.getTrades());
+		// stats += " Num longs/shorts: ";
+		// stats += to_string(trades.getLongs()) + "/";
+		// stats += to_string(trades.getShorts());
 		return stats;
 	}
 };
