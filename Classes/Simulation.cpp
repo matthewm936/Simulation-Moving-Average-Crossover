@@ -75,7 +75,6 @@ public:
 				// 0     1     2     3    4      5          6
 				open  = stod(row[1]);
 				MAcrossover.updateMovingAverageCrossover(open);
-				MAcrossover.updatePortfolio(open);
 			}
 			MAcrossover.closePortfolio(open);
 

@@ -11,6 +11,7 @@ const void assertLengthGreaterOrEqualSize(MovingAverageCrossover& mac) {
 }
 
 void testMAC() {
+	// MAC speed, lengths, signal tests
 	MovingAverageCrossover mac = MovingAverageCrossover(3, 5);
 
 	assert(mac.fast.speed == "fast");
@@ -109,6 +110,22 @@ void testMAC() {
 	assert(mac.fast.getAverage() == (1 + 2 + 100) / 3.0); 
 	assertLengthGreaterOrEqualSize(mac);
 	assert(mac.getSignal() == IndicatorDirection::LONG);
+
+	// Testing MAC portfolio Close Portfolio Returns
+	MovingAverageCrossover mac2 = MovingAverageCrossover(2, 3);
+
+	for (int i = 1; i < 10; i++) {
+		mac2.updateMovingAverageCrossover(i);
+	} mac2.closePortfolio(10);
+	assert(mac2.portfolio.getReturns() == ((10 - 3)/ 3.0) + 1);
+
+	MovingAverageCrossover mac3 = MovingAverageCrossover(2, 3);
+	for (int i = 10; i > 1; i--) {
+		mac3.updateMovingAverageCrossover(i);
+	} mac3.closePortfolio(1);
+	assert(mac3.portfolio.getReturns() == ((8.0 - 1.0) / 8.0) + 1);
+
+
 
 	cout << "PASSED: MAC" << endl;
 }

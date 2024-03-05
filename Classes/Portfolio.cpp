@@ -68,6 +68,10 @@ public:
 		} 
 	}
 
+	double getReturns() {
+		return returns;
+	}
+
 	string getTradeStats() {
 		string stats = "Return in %: ";
     	stats += to_string(returns * 100);

@@ -2,7 +2,7 @@
 #define Trade_CPP
 
 #include <string>
-
+#include <iostream>
 
 #include "IndicatorDirection.cpp"
 
@@ -51,7 +51,7 @@ private:
 	int getTrades() {
 		return trades;
 	}
-	
+
 	int getShorts() {
 		return shorts;
 	}

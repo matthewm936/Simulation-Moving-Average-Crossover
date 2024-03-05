@@ -23,6 +23,7 @@ public:
 		fast.update(currentPrice);
 		slow.update(currentPrice);
 
+		updatePortfolio(currentPrice);
 	}
 
 	void updatePortfolio(double currentPrice) {
