@@ -1,8 +1,8 @@
-#include "Classes\MovingAverage.cpp"
-#include "Classes\Portfolio.cpp"
-#include "Classes\Simulation.cpp"
-#include "Classes\Dataset.cpp"
-#include "Classes\Paramaterization.cpp"
+#include "Classes/MovingAverage.cpp"
+#include "Classes/Portfolio.cpp"
+#include "Classes/Simulation.cpp"
+#include "Classes/Dataset.cpp"
+#include "Classes/Paramaterization.cpp"
 
 #include <iostream>
 #include <chrono>
@@ -14,13 +14,13 @@ int main(int argc, char* argv[]) {
 
 	// Setup data
 	vector<string> rawDataFiles = { 
-		"./Raw Data/BTC-USD-Daily-Yahoo.csv", 
+		// "./Raw Data/BTC-USD-Daily-Yahoo.csv", 
 		// "./Raw Data/BTC-USD-Monthly-Yahoo.csv", 
 		// "./Raw Data/BTC-USD-Weekly-Yahoo.csv" 
 	};
 	vector<string> subsectionDataFiles = { 
 		"./Clean Data/Daily-2017-Feb-23-to-2017-Dec-17.csv", 
-		"./Clean Data/Daily-2020-Nov-30-to-21-Apr-14.csv" 
+		// "./Clean Data/Daily-2020-Nov-30-to-21-Apr-14.csv" 
 	};
 	
 	Dataset dataset(rawDataFiles, subsectionDataFiles);
